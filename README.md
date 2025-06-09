@@ -18,4 +18,4 @@ To create a personal finance app using secure development practices.
 * Secure use of environment variables is requried
 * Database access will be minimized and based on a per server request
 * Auditable and immutable logs
-* OWASP standards for secure applications
+* OWASP Comprehensive, Lightweight Application Security Process (CLASP) standards for development
