@@ -42,4 +42,4 @@ The author assumes full responsibility for enforcing the scope, boundaries, and 
 ---
 ## Appendix
 - Framework References: ISO/IEC 27001:2022 Clause 5.2, NIST SSDF, OWASP ASVS, GDPR
-- Version History: Initial Draft – YYYY-MM-DD
+- Version history is tracked in the Git commit comments
