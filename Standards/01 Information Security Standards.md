@@ -96,7 +96,73 @@ Any exceptions to this standard must be formally documented, risk-assessed, and 
 
 ---
 
-## 8. Review
+## 8. Secure Software Development
+
+- Adopt a secure software development lifecycle (SSDLC) that integrates security requirements, threat modeling, and risk assessment at each phase.
+- Perform security reviews and testing (e.g., static/dynamic analysis, code review, penetration testing) before release.
+- Document and remediate identified vulnerabilities in a timely manner.
+- Ensure all third-party components are evaluated for security risks and kept up to date.
+- Maintain an inventory of software assets, including versions and dependencies.
+
+---
+
+## 9. Asset Management
+
+- Maintain an up-to-date inventory of all information assets, including hardware, software, and data.
+- Classify assets based on sensitivity and criticality.
+- Assign ownership and custodianship for all assets.
+
+---
+
+## 10. Supplier and Third-Party Security
+
+- Assess and manage risks associated with suppliers and third-party services.
+- Require suppliers to adhere to security requirements consistent with organizational standards.
+- Monitor supplier compliance and address deficiencies.
+
+---
+
+## 11. Logging and Monitoring
+
+- Enable logging of security-relevant events (e.g., access, changes, failures).
+- Protect logs from unauthorized access and tampering.
+- Regularly review and analyze logs for signs of suspicious activity.
+
+---
+
+## 12. Change Management
+
+- Document and approve all changes to systems, applications, and infrastructure.
+- Assess security impact of changes before implementation.
+- Maintain records of all changes and associated approvals.
+
+---
+
+## 13. Vulnerability Management
+
+- Regularly scan systems and applications for vulnerabilities.
+- Prioritize and remediate vulnerabilities based on risk.
+- Track and document remediation efforts.
+
+---
+
+## 14. Security Awareness and Training
+
+- Provide regular security awareness training to all personnel.
+- Ensure training covers secure development practices, data protection, and incident reporting.
+
+---
+
+## 15. Incident Response
+
+- Establish and maintain an incident response plan.
+- Define roles, responsibilities, and procedures for responding to security incidents.
+- Test and update the incident response plan regularly.
+- Ensure all personnel are aware of and trained in their roles within the incident response plan.
+
+---
+
+## 16. Review
 
 This standard shall be reviewed at least annually or upon significant changes to relevant technology or regulations.
 
