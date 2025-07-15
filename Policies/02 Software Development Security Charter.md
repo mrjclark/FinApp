@@ -3,21 +3,32 @@
 ## 1. Purpose & Scope
 
 ### 1.1 Purpose
-This charter, endorsed by project leadership, defines the security principles and commitments guiding the development of FinApp. It establishes clear roles, responsibilities, and governance for information security, consistent with the organization’s Information Security Policy and ISO/IEC 27001 requirements.
+This charter, endorsed by project leadership, defines the security principles and commitments guiding the development of FinApp. It establishes clear roles, responsibilities, and governance for secure development using industry standards based around ISO27001:2022 and NIST SSDF 800 series.
 
 ### 1.2 Scope
-- Applies to all phases of development: Planning, Design, Implementation, Testing, Deployment, and Maintenance.
-- Covers security principles, roles, governance, risk management, compliance, and escalation.
+- Applies to all phases of development, as well as all assets created as part of the development.
+- Covers the development process, risk management, and secure coding practices.
 
-## 2. Security Commitments
+## 2. Secure Software Development Life Cycle
 
-### 2.1 Secure Development Framework
-- Adhere to NIST SSDF guidelines as the primary framework.
+### 2.1 Processes
+
+| Process | Key Activities | Purpose |
+| --- | --- | --- |
+| Concept and Initiation | Define stakeholder protection needs; Identify security objectives and contraints; and establish trustworthiness goals | Ground the project in intentional security from the beginning |
+| Requirements Definition | Specify security requirements, both functional and non-functional; Include risk identification and tolerance; Align with protection needs | Ensure security is implemented into security expectations | 
+| Archtecture & Design | Apply security design principles; Perform threat modeling; Define seucirty interfaces and boundaries | Build resilience in the project's structure |
+| Implementation | Ensure secure coding standards; Validate 3rd party components; User version control and code signing | Translate design into trustworth code |
+| Integration & Verification | Conduct code analysis; Perform security testing; Validate security requirements are met | Confirm the system behaves securely under scrutiny |
+| Deployments & Operations | Harden configurations; Monitor for anomolies; Protect released product environment | Maintain security posture in post release |
+| Maintenance & Disposals | Patch vulnerabilities; Retire components securely; Update threat models and documentation | Sustain trustworthiness over time |
+
+### 2.2 Secure Development Framework
+- Adhere to NIST SSDF V1.1 guidelines as the primary framework.
 - Implement OWASP secure coding principles.
 - Conduct threat modeling and security assessments at key development phases.
-- Maintain compliance with data privacy regulations, primarily GDPR.
 
-### 2.2 Secure Architecture & Design
+### 2.3 Secure Architecture & Design
 - Follow a zero-trust model for authentication and access controls.
 - Implement encryption standards (AES for data at rest, TLS for data in transit).
 - Reduce attack surfaces using least privilege access control.
