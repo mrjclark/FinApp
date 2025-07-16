@@ -1,9 +1,9 @@
 
-# Information Security Standards
+# Secure Software Development Standards
 
 ## 1. Purpose
 
-This standard defines the minimum security requirements for access control, authentication, and encryption to protect sensitive information within the organization’s systems and data.
+This standard defines the minimum security requirements for software development
 
 ## 2. Scope
 
