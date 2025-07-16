@@ -1,40 +1,62 @@
 # Configuration Management Policy
+Document Status: Draft
 
-## 1. Purpose
+## 1. Purpose & Scope
 
+### 1.1 Purpose
 To define the principles and requirements for effective configuration management within the FinApp project, ensuring the integrity, consistency, and traceability of configurations in accordance with ISO/IEC 27001:2022.
 
-## 2. Scope
+### 1.2 Scope
+This policy applies to all configuration items, systems, applications, environments, and supporting documentation relevant to the FinApp project. All project roles are covered.
 
-This policy applies to all configuration items, systems, applications, environments, and supporting documentation relevant to the FinApp project.
-
-## 3. Policy Statement
-
+## 2. Policy Statement
 The FinApp project is committed to maintaining secure and consistent configurations for all systems and software. Configuration management processes shall ensure that all changes are controlled, documented, and align with security and operational requirements.
 
-## 4. Principles
+## 3. Policy Objectives
+- Identify, record, and maintain all configuration items in a controlled manner.
+- Ensure configuration changes are subject to formal change control and approval.
+- Define standard configurations and baselines; document deviations.
+- Maintain and review configuration records and change histories regularly.
+- Maintain backups of configuration data to support recovery and continuity.
 
-- All configuration items shall be identified, recorded, and maintained in a controlled manner.
-- Configuration changes shall be subject to formal change control and approval.
-- Standard configurations and baselines shall be defined and deviations documented.
-- Configuration records and change histories shall be maintained and reviewed regularly.
-- Backups of configuration data shall be maintained to support recovery and continuity needs.
+## 4. Roles & Responsibilities
 
-## 5. Responsibilities
+| Role           | Responsibilities                                                                 |
+|----------------|----------------------------------------------------------------------------------|
+| Project Owner  | Ensures configuration management requirements are implemented and maintained.     |
+| Contributors   | Comply with configuration management processes relevant to their roles.           |
 
-- The Project Owner is responsible for ensuring that configuration management requirements are implemented and maintained.
-- All contributors must comply with configuration management processes relevant to their roles.
+## 5. Configuration Management Activities
 
-## 6. Related Documents
+### 5.1 Identification and Control
+- Identify and record all configuration items.
+- Maintain configuration records and change histories.
 
-## 7. Review
+### 5.2 Change Management
+- Subject all configuration changes to formal change control and approval.
+- Document and review all changes.
 
-This policy shall be reviewed annually or upon significant changes to project infrastructure or requirements.
+### 5.3 Baseline Management
+- Define standard configurations and baselines.
+- Update all default or missing privileged account passwords.
+- Document and manage deviations from baselines.
 
-## 8. References
+### 5.4 Backup and Recovery
+- Maintain backups of configuration data.
+- Support recovery and continuity needs.
 
-- ISO/IEC 27001:2022 Clauses 8.1, A.12.1, A.12.5
+---
 
-## 9. Version History
+## Appendix
 
+### A. Version History
 Version history is maintained in the git commit log.
+
+### B. References
+- ISO/IEC 27001:2022 Clauses 8.1, A 8.9, A.12.1, A.12.5
+
+### C. Definitions
+| Word                | Definition                                                                 |
+|---------------------|----------------------------------------------------------------------------|
+| Configuration Item  | Any system, application, environment, or documentation subject to configuration management. |
+| Baseline            | A formally agreed configuration item, serving as a basis for further development.

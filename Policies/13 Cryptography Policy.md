@@ -1,46 +1,61 @@
 # Cryptography Policy
+Document Status: Draft
 
-## 1. Purpose
+## 1. Purpose & Scope
 
+### 1.1 Purpose
 To define the principles and requirements for the use, management, and protection of cryptographic controls within the FinApp project, ensuring the confidentiality, integrity, and authenticity of information in accordance with ISO/IEC 27001:2022.
 
-## 2. Scope
+### 1.2 Scope
+This policy applies to all data, systems, applications, and communications within the FinApp project where cryptographic measures are used to protect information. All project roles are covered.
 
-This policy applies to all data, systems, applications, and communications within the FinApp project where cryptographic measures are used to protect information.
-
-## 3. Policy Statement
-
+## 2. Policy Statement
 The FinApp project is committed to using appropriate cryptographic controls to protect sensitive and personal information from unauthorized access, modification, or disclosure.
 
-## 4. Principles
+## 3. Policy Objectives
+- Apply cryptographic controls to protect data at rest, in transit, in use, and as required by law, regulation, or risk assessment.
+- Use only approved cryptographic algorithms, protocols, and key lengths.
+- Securely generate, store, distribute, retire, and destroy cryptographic keys.
+- Protect private keys and passwords against unauthorized access.
+- Regularly review and update cryptographic controls to address emerging threats.
+- Implement and document compensating controls where encryption is not feasible.
+- Identify and comply with legal, regulatory, and contractual requirements for cryptography.
 
-- Cryptographic controls shall be applied to protect data at rest, in transit, and when required by law, regulation, or risk assessment.
-- Only approved cryptographic algorithms, protocols, and key lengths shall be used, following recognized industry standards.
-- Cryptographic keys shall be generated, stored, distributed, retired, and destroyed securely, in accordance with documented procedures.
-- Private keys and passwords used for cryptographic purposes shall be kept confidential and protected against unauthorized access.
-- The use of cryptography shall be regularly reviewed and updated to address emerging threats and vulnerabilities.
-- Where encryption is not feasible, compensating controls must be implemented and documented.
-- Legal, regulatory, and contractual requirements relating to the use of cryptography shall be identified and complied with.
+## 4. Roles & Responsibilities
 
-## 5. Responsibilities
+| Role             | Responsibilities                                                                 |
+|------------------|----------------------------------------------------------------------------------|
+| Application Owner| Approves cryptographic methods, maintains documentation, ensures compliance.      |
+| Contributors     | Adhere to cryptographic practices, report suspected weaknesses or incidents.      |
 
-- The Application Owner is responsible for approving cryptographic methods, maintaining related documentation, and ensuring compliance with this policy.
-- All contributors must adhere to established cryptographic practices and immediately report any suspected weaknesses or incidents.
+## 5. Cryptography Activities
 
-## 6. Related Documents
+### 5.1 Cryptographic Control Application
+- Apply cryptographic controls to data at rest, in transit, and as required.
 
-- [Data Privacy and Protection Policy](./07%20Data%20Privacy%20and%20Protection%20Policy.md)
-- [Incident Response Handling Policy](./08%20Incident%20Response%20Handling%20Policy.md)
+### 5.2 Algorithm and Key Management
+- Use only approved algorithms, protocols, and key lengths.
+- Generate, store, distribute, retire, and destroy keys securely.
 
-## 7. Review
+### 5.3 Access and Confidentiality
+- Protect private keys and passwords from unauthorized access.
 
-This policy shall be reviewed annually or upon significant changes to cryptographic technology, threats, or regulatory requirements.
+### 5.4 Review and Improvement
+- Regularly review cryptographic controls and update as needed.
+- Implement compensating controls if encryption is not feasible.
 
-## 8. References
+---
 
-- ISO/IEC 27001:2022 Clauses A.8.24, A.10
-- Relevant legal and regulatory requirements
+## Appendix
 
-## 9. Version History
-
+### A. Version History
 Version history is maintained in the git commit log.
+
+### B. References
+- ISO/IEC 27001:2022 Clauses A.8.24, A.10
+
+### C. Definitions
+| Word                | Definition                                                                 |
+|---------------------|----------------------------------------------------------------------------|
+| Cryptographic Control | Measures such as encryption, hashing, and digital signatures used to protect information. |
+| Key Management      | The process of handling cryptographic keys

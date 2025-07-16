@@ -1,46 +1,68 @@
 # Access Control Policy
+Document Status: Draft
 
-## 1. Purpose
+## 1. Purpose & Scope
 
+### 1.1 Purpose
 To define principles and requirements for managing access to information assets and resources within the FinApp project, ensuring only authorized individuals have appropriate access in accordance with ISO/IEC 27001:2022.
 
-## 2. Scope
+### 1.2 Scope
+This policy applies to all users, systems, applications, and resources that store, process, or transmit information within the FinApp project. All project roles are covered.
 
-This policy applies to all users, systems, applications, and resources that store, process, or transmit information within the FinApp project.
-
-## 3. Policy Statement
-
+## 2. Policy Statement
 The FinApp project is committed to protecting information from unauthorized access, disclosure, alteration, or destruction by enforcing strict access control measures.
 
-## 4. Principles
+## 3. Policy Objectives
+- Grant access based on least privilege and business need.
+- Review and adjust user access rights regularly.
+- Ensure access rights are formally approved, documented, and assigned via unique user IDs.
+- Control, monitor, and review privileged access.
+- Avoid shared accounts; strictly control and justify if used.
+- Log and monitor access to sensitive data and critical systems.
+- Enforce strong authentication mechanisms.
+- Secure remote access using approved methods.
 
-- Access to information and systems shall be granted based on the principle of least privilege and need.
-- User access rights shall be reviewed regularly and adjusted promptly upon changes in roles or employment status.
-- Access rights shall be formally approved, documented, and assigned via unique user IDs.
-- Privileged access (e.g., administrator, root) shall be tightly controlled, monitored, and reviewed.
-- Shared user accounts shall be avoided; if necessary, their use shall be strictly controlled and justified.
-- Access to sensitive data and critical systems shall be logged and monitored.
-- Authentication mechanisms (e.g., passwords, multi-factor authentication) shall meet defined security standards.
-- Remote access shall be controlled and protected using secure methods.
+## 4. Roles & Responsibilities
 
-## 5. Responsibilities
+| Role           | Responsibilities                                                                 |
+|----------------|----------------------------------------------------------------------------------|
+| Project Owner  | Approves access requests, manages access rights, ensures periodic reviews.        |
+| Users          | Safeguard credentials, report suspected unauthorized access immediately.          |
 
-- The Project Owner is responsible for approving access requests, managing access rights, and ensuring periodic reviews.
-- All users are responsible for safeguarding their credentials and reporting suspected unauthorized access immediately.
+## 5. Access Control Activities
 
-## 6. Related Documents
+### 5.1 Access Provisioning
+- Approve and document access requests.
+- Assign access via unique user IDs.
 
-- [Data Privacy and Protection Policy](./Data%20Privacy%20and%20Protection%20Policy.md)
-- [Incident Response Handling Policy](./Incident%20Response%20Handling%20Policy.md)
+### 5.2 Privileged Access Management
+- Control, monitor, and review privileged accounts.
+- Justify and document any shared account usage.
 
-## 7. Review
+### 5.3 Access Review
+- Review user access rights regularly and upon role changes.
+- Remove or adjust access promptly as needed.
 
-This policy shall be reviewed annually or upon significant changes to roles, systems, or regulatory requirements.
+### 5.4 Authentication and Remote Access
+- Enforce password and multi-factor authentication standards.
+- Secure remote access using approved methods.
 
-## 8. References
+### 5.5 Logging and Monitoring
+- Log and monitor access to sensitive data and critical systems.
 
-- ISO/IEC 27001:2022 Clauses 5.1, 5.2, 8.1, A.9 (Access Control), A.5.15, A.8.2
+---
 
-## 9. Version History
+## Appendix
 
+### A. Version History
 Version history is maintained in the git commit log.
+
+### B. References
+- ISO/IEC 27001:2022 Clauses 5.1, 5.2, 8.1, A.9, A.5.15, A.8.2
+
+### C. Definitions
+| Word                | Definition                                                                 |
+|---------------------|----------------------------------------------------------------------------|
+| Least Privilege     | Granting users only the access necessary for their role.                   |
+| Privileged Account  | Accounts with elevated access rights (e.g., administrator, root).          |
+| Multi-factor Authentication | Authentication using two or more verification methods.               |

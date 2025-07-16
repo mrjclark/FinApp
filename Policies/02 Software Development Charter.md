@@ -1,4 +1,5 @@
 # Software Development Charter
+Document status: Draft
 
 ## 1. Purpose & Scope
 
@@ -9,20 +10,19 @@ This charter, endorsed by project leadership, defines the security principles an
 - Applies to all phases of development, as well as all assets created as part of the development.
 - Covers the development process, risk management, and secure coding practices.
 
-## 3 Secure Development Framework
-- Adhere to industry standards for secure software development 
-- Conduct threat modeling and security assessments at all development phases.
+## 2. Policy statement
+FinApp is committed to using secure development practices to ensure data confidentiality and integrity using industry standards. The development will be transparent and process driven to ensure trustworthiness and accountbility.
 
-## 2. Secure Software Development Life Cycle
+## 3. Secure Software Development Life Cycle
 - The development of FinApp will occur using the below processes. 
 - Processes are designed to be overlapping and can contain parallel tasks and activities. 
 - Tasks and activities can transfer from one process to the next if it fulfills the requirements of that process. Tasks and activities from one process can also transfer to any of the previous process when new or existing requirements were found to be missing.
 - Requirements will be determined by the task or activity responsible upon creation or transfer to another process.
 
-### 2.1 Secure Software Development Processes
+### 3.1 Secure Software Development Processes
 | Process |  Purpose |
 | --- | --- |
-| Concept and Initiation |  Ground the project in intentional security from the beginning |
+| Concept & Initiation |  Ground the project in intentional security from the beginning |
 | Requirements Definition | Ensure security is implemented into security expectations | 
 | Archtecture & Design | Build resilience in the project's structure |
 | Implementation | Translate design into trustworth code |
@@ -30,49 +30,78 @@ This charter, endorsed by project leadership, defines the security principles an
 | Deployments & Operations | Maintain security posture in post release |
 | Maintenance & Disposals | Sustain trustworthiness over time |
 
-### 2.2 Concept and Initiation
+### 3.2 Concept & Initiation
 - Define stakeholder protection needs and ethical boundaries.
-- Establish trustworthiness goals and resiliance objectives.
-- Frame the final products purpose as a service to others, not just a technical artifact.
-- Identify potential loss scenarios and unnacceptable consequences.
+- Identify mission/business objectives and critical assets.
+- Identify high-level threats, adversaries, and potential impacts.
+- Establish initial risk tolerance and trustworthiness goals.
+- Document assumptions, constraints, and dependencies relevant to security.
+- Identify potential loss scenarios and unacceptable consequences.
+- Frame the product’s purpose as a service to others, not just a technical artifact.
 
-### 2.3 Requirements Definition
+### 3.3 Requirements Definition
 - Specify security and privacy requirements, both functional and non-functional.
-- Create cyber resiliency objectives for anticipating, withstanding, recovering and adapting.
+- Create cyber resiliency objectives for anticipating, withstanding, recovering, and adapting.
 - Align requirements with mission assurance and ethical commitments.
-- Document all assumations, contraints, and trade-offs transparently.
+- Document all assumptions, constraints, and trade-offs transparently.
+- Identify applicable laws, regulations, and standards.
+- Perform initial risk assessment and tolerance analysis.
+- Establish requirements for monitoring, detection, and response capabilities.
+- Document requirements for supply chain and third-party components.
 
-### 2.4 Architecture & Design
-- Apply secure design principles of least privilege and separation of concern.
-- Identify encryption standards for data at rest, in transit and in use.
-- Development will always include principles of Secure by Design and Default.
-- Perform threat modeling and resilience analysis.
+### 3.4 Architecture & Design
+- Apply secure design principles of least privilege, separation of concerns, defense-in-depth, and redundancy.
+- Identify encryption standards for data at rest, in transit, and in use.
+- Incorporate Secure by Design and Default principles.
+- Perform detailed threat modeling and resilience analysis.
 - Define system boundaries, trust zones, and defensive layering.
-- Architect for modularity to mitigate degradation and recovery under stress.
+- Architect for modularity to mitigate degradation and support recovery under stress.
+- Define security controls, countermeasures, and trust boundaries.
+- Plan for adaptability, recovery, and continuity.
+- Specify requirements for secure configuration and hardening.
+- Design for secure integration with external systems and services.
 
-### 2.5 Implementation
-- Enfore secure coding standards and review rituals.
-- Validate third-party components and SBOM's.
-- Use version control, code signing and reproducible build processes.
-- Treat each commit as a reflection of integrity, discipline and intentionality.
+### 3.5 Implementation
+- Enforce secure coding standards and review rituals.
+- Validate and manage third-party components and SBOMs.
+- Use version control, code signing, and reproducible build processes.
+- Apply secure coding standards and guidelines.
+- Integrate security controls into code and system components.
+- Document security-relevant implementation decisions.
+- Ensure traceability from requirements to implementation.
+- Treat each commit as a reflection of integrity, discipline, and intentionality.
 
-### 2.6 Integration & Verification
+### 3.6 Integration & Verification
 - Conduct code and environment vulnerability assessments.
-- Verify fulfillment of security and cyber resiliance requirements.
+- Verify fulfillment of security and cyber resilience requirements.
+- Conduct dynamic and static security testing (e.g., SAST, DAST).
+- Perform penetration testing.
+- Validate that security and resiliency requirements are met.
+- Test system recovery, failover, and continuity mechanisms.
+- Verify secure integration of third-party and supply chain components.
+- Document test results and remediation actions.
 
-### 2.7 Deployments & Operations
-- Harden configurations and enforce secure defaults.
-- Monitor for anomalies and indicators of comprimise.
+### 3.7 Deployments & Operations
+- Harden configurations and enforce secure defaults prior to deployment.
+- Monitor for security events, anomalies, and indicators of compromise.
 - Protect development and release environments with least privilege and isolation.
+- Manage credentials, secrets, and access controls securely.
+- Apply patches and updates in a timely manner.
+- Maintain operational resilience and incident response plans.
+- Conduct regular security reviews and audits of deployed systems.
 - Treat operations vigilance as a practice of stewardship.
 
-### 2.8 Maintenance & Disposals
-- Patch vulnerabilities as the need arises based on prioritization.
-- Retire components securely to preserve data confidentiality.
+### 3.8 Maintenance & Disposals
+- Continuously monitor for new threats and vulnerabilities.
+- Patch and update software and components as needed.
+- Retire or decommission components securely, ensuring data sanitization.
+- Update documentation, threat models, and risk assessments.
+- Review and improve security controls based on lessons learned.
+- Ensure secure transfer or destruction of sensitive data and assets.
 - Maintain documentation and assurance cases.
 - Intentionally reflect on lessons learned and refine processes.
 
-## 3. Roles & Responsibilities
+## 4. Roles & Responsibilities
 | Role                            | Responsibilities                                                                                    |
 |---------------------------------|-----------------------------------------------------------------------------------------------------|
 | Owner / Project Lead            | Accountable for approving and reviewing this charter and ensuring adequate resources for security.  |
@@ -85,8 +114,7 @@ This charter, endorsed by project leadership, defines the security principles an
 | Third-Party/Vendor              | Adhere to project’s security requirements when engaged.                                             |
 
 
-
-## 4. Continuous Security Improvement Commitement
+## 5. Continuous Security Improvement Commitement
 - Continuous reviews on security will be needed as per industry standards for secure software development
 - Auditing will be done to ensure security controls are working as expected
 - Security controls will be updated as needed when emerging risks to development materialize
@@ -124,6 +152,8 @@ This charter, endorsed by project leadership, defines the security principles an
 
 ## Appendix
 
-- References: [NIST SSDF](https://csrc.nist.gov/publications/detail/white-paper/2022/secure-software-development-framework/final), [OWASP](https://owasp.org/), ISO/IEC 27001:2022
+### A. Version history
 - Version history is maintained in the Git commit log
-- Status: Draft
+
+### B. References
+- References: [NIST SSDF](https://csrc.nist.gov/publications/detail/white-paper/2022/secure-software-development-framework/final), [OWASP](https://owasp.org/), ISO/IEC 27001:2022

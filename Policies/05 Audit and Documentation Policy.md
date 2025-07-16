@@ -1,41 +1,54 @@
 # Audit and Documentation Policy
+Document Status: Draft
 
-## 1. Purpose
+## 1. Purpose & Scope
 
+### 1.1 Purpose
 To establish the principles and requirements for internal audit and documentation within the FinApp project, supporting continual improvement and compliance with ISO/IEC 27001:2022.
 
-## 2. Scope
+### 1.2 Scope
+This policy applies to all processes, controls, and documentation relating to information security for the FinApp project. All project roles are covered.
 
-This policy applies to all processes, controls, and documentation relating to the information security for the FinApp project.
-
-## 3. Policy Statement
-
+## 2. Policy Statement
 The FinApp project is committed to maintaining a robust internal audit process and comprehensive documentation to ensure the effectiveness of information security controls, enable compliance verification, and facilitate continual improvement.
 
-## 4. Principles
+## 3. Policy Objectives
+- Conduct regular internal audits and audits after significant changes to the ISMS.
+- Maintain accurate, controlled, and versioned documentation for all key information security activities.
+- Use audit findings to drive corrective and preventive actions.
+- Ensure documentation is reviewed periodically for accuracy and relevance.
 
-- Internal audits shall be conducted regularly and whenever significant changes to the ISMS occur.
-- All key information security management activities and decisions shall be appropriately documented and retained.
-- Findings from audits shall be used to drive corrective and preventive actions.
-- Documentation shall be controlled, versioned, and reviewed periodically for accuracy and relevance.
+## 4. Roles & Responsibilities
 
-## 5. Responsibilities
+| Role           | Responsibilities                                                                 |
+|----------------|----------------------------------------------------------------------------------|
+| Project Owner  | Plans, conducts, and documents internal audits; maintains ISMS documentation.    |
+| Contributors   | Cooperate with audit activities and support documentation requirements relevant to their roles. |
 
-- The Project Owner is responsible for planning, conducting, and documenting internal audits, and for maintaining ISMS documentation.
-- All contributors shall cooperate with audit activities and support documentation requirements relevant to their roles.
+## 5. Audit and Documentation Activities
 
-## 6. Related Documents
+### 5.1 Internal Audit
+- Plan and conduct audits regularly and after significant changes.
+- Document audit findings and corrective actions.
+- Use audit results to improve ISMS effectiveness.
 
-- [Continuous Improvement Policy](./Continuous%20Improvement%20Policy.md)
+### 5.2 Documentation Management
+- Control, version, and retain all key ISMS documentation.
+- Review documentation for accuracy and relevance.
+- Ensure documentation supports compliance and continual improvement.
 
-## 7. Review
+---
 
-This policy shall be reviewed annually or following significant changes to the FinApp project.
+## Appendix
 
-## 8. References
+### A. Version History
+Version history is tracked in the Git commit log.
 
+### B. References
 - ISO/IEC 27001:2022 Clauses 7.5, 9.2, 10.1
 
-## 9. Version History
-
-Version history is maintained in the git commit log.
+### C. Definitions
+| Word           | Definition                                                                 |
+|----------------|----------------------------------------------------------------------------|
+| ISMS           | Information Security Management System.                                    |
+| Internal Audit | Systematic, independent, and documented process for obtaining audit evidence and

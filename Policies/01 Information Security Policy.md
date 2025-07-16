@@ -1,4 +1,6 @@
 # Information Security Policy
+Document Status: Draft
+This policy supersedes all previous statements of intent or security posture for the FinApp project.
 
 ## 1. Purpose and Scope
 
@@ -38,32 +40,32 @@ This Information Security Policy is supported by a framework of subordinate docu
 | Guidelines | Provide recommended (but not mandatory) best practices. | Best practices for code formatting | 
 
 ## 7. Enforcement and Compliance
-Compliance with this policy is mandatory. Violations may result in removal of contributor privileges or other corrective actions as determined by the project lead. Compliance is monitored through automated controls, periodic reviews and audits.
+Compliance with policies is mandatory. Violations may result in removal of contributor privileges or other corrective actions as determined by the project lead. Compliance is monitored through automated controls, periodic reviews and audits.
 
 ## 8. Policy Awareness and Communication
 This policy and all supporting documents will be made publicly available in the repository. All contributors must review these documents prior to participation. Updates will be communicated via repository updates and commit messages.
 
 ## 9. Policy Maintenance and Review
-This policy will be reviewed at least annually, or when significant changes occur in project scope, legal requirements, or industry standards.
+All policies will be reviewed at least annually, or when significant changes occur in project scope, legal requirements, or industry standards.
 
-## 10. Definitions
+## 10. Licensing and Use Limitations
+This project is licensed under the Polyform Noncommercial License 1.0.0. See `LICENSE.md` for details.
+
+---
+
+## Appendix
+
+### A. Version History
+Version history is tracked in the Git commit log.
+
+### B. References
+- ISO/IEC 27001:2022 
+- NIST SSDF
+- OWASP ASVS
+
+### C. Definitions
 | Word | Definition |
 | --- | --- |
 | Confidentiality | Protection against unauthorized disclosure of information. |
 | Integrity | Protection against unauthorized modification or destruction of information. |
 | Availability | Ensuring information and resources are accessible when needed. |
-
-## 11. References
-- ISO/IEC 27001:2022 
-- NIST SSDF
-- OWASP ASVS
-
-## 12. Licensing and Use Limitations
-This project is licensed under the Polyform Noncommercial License 1.0.0. See `LICENSE.md` for details.
-
-## 13. Version History
-Version history is tracked in the Git commit log.
-
----
-
-*This policy supersedes all previous statements of intent or security posture for the FinApp project.*

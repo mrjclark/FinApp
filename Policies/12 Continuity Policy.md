@@ -1,44 +1,63 @@
 # Continuity Policy
+Document Status: Draft
 
-## 1. Purpose
+## 1. Purpose & Scope
 
-To define the principles and requirements for maintaining and restoring the availability of critical application functions and information in the FinApp project in the event of a disruption, in alignment with ISO/IEC 27001:2022, adapted for personal use.
+### 1.1 Purpose
+To define the principles and requirements for maintaining and restoring the availability of critical application functions and information in the FinApp project in the event of a disruption, in alignment with ISO/IEC 27001:2022.
 
-## 2. Scope
+### 1.2 Scope
+This policy applies to all essential data, workflows, and components necessary to sustain or restore the operation of the FinApp application. All project roles are covered.
 
-This policy applies to all essential data, workflows, and components that are necessary to sustain or restore the operation of the FinApp application for personal use.
-
-## 3. Policy Statement
-
+## 2. Policy Statement
 The FinApp project is committed to ensuring the continuity of its core functions by identifying risks, preparing for disruptions, and implementing processes to recover and restore essential services and data within acceptable timeframes.
 
-## 4. Principles
+## 3. Policy Objectives
+- Identify and prioritize essential application processes and data for continuity planning.
+- Conduct impact analysis and risk assessments to determine continuity requirements.
+- Develop, document, and maintain continuity and recovery plans.
+- Regularly test, review, and update continuity and recovery plans.
+- Assign and communicate roles and responsibilities for continuity and recovery activities.
+- Use lessons learned from disruptions and exercises to improve continuity processes.
 
-- Essential application processes and data shall be identified and prioritized for continuity planning.
-- Impact analysis and risk assessments shall be conducted to determine continuity requirements.
-- Continuity and recovery plans shall be developed, documented, and maintained, with a focus on personal needs and resources.
-- Regular testing, review, and updating of continuity and recovery plans shall be performed, as feasible.
-- The application owner shall be aware of their roles and responsibilities in continuity and recovery activities.
-- Lessons learned from disruptions and exercises shall be used to improve continuity processes.
+## 4. Roles & Responsibilities
 
-## 5. Responsibilities
+| Role             | Responsibilities                                                                 |
+|------------------|----------------------------------------------------------------------------------|
+| Application Owner| Develops, maintains, and tests continuity and recovery plans.                     |
+| Users            | Understand and execute assigned continuity and recovery tasks as required.        |
 
-- The Application Owner is responsible for developing, maintaining, and testing continuity and recovery plans.
-- All users (if any besides the owner) are responsible for understanding and executing their assigned continuity and recovery tasks as required.
+## 5. Continuity Activities
 
-## 6. Related Documents
+### 5.1 Identification and Prioritization
+- Identify and prioritize essential processes and data for continuity planning.
 
-- [Incident Response Handling Policy](./08%20Incident%20Response%20Handling%20Policy.md)
-- [Risk Assessment Policy](./03%20Threat%20Modeling%20and%20Risk%20Assessment%20Policy.md)
+### 5.2 Impact Analysis and Risk Assessment
+- Conduct impact analysis and risk assessments to determine continuity requirements.
 
-## 7. Review
+### 5.3 Continuity and Recovery Planning
+- Develop, document, and maintain continuity and recovery plans.
 
-This policy shall be reviewed annually, or following significant changes to application processes, technology, or after a major incident.
+### 5.4 Testing and Review
+- Regularly test, review, and update continuity and recovery plans.
 
-## 8. References
+### 5.5 Improvement
+- Use lessons learned from disruptions and exercises to improve continuity processes.
 
-- ISO/IEC 27001:2022 Clauses 8.4, A.5.29, A.17
+---
 
-## 9. Version History
+## Appendix
 
+### A. Version History
 Version history is maintained in the git commit log.
+
+### B. References
+- ISO/IEC 27001:2022 Clauses 8.4, A.5.29, A.17
+- [Incident Response Handling Policy](./08%20Incident%20Response%20Handling%20Policy.md)
+- [Risk Assessment Policy](./03%20Risk%20Assessment%20Policy.md)
+
+### C. Definitions
+| Word                | Definition                                                                 |
+|---------------------|----------------------------------------------------------------------------|
+| Continuity          | The ability to maintain or restore essential functions and data following a disruption. |
+| Recovery Plan       | Documented procedures for restoring operations and data after a disruption. |

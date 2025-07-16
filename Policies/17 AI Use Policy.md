@@ -1,45 +1,61 @@
 # AI Use Policy
+Document Status: Draft
 
-## 1. Purpose
+## 1. Purpose & Scope
 
-To define the principles and requirements for the responsible use of Artificial Intelligence (AI) in the FinApp project, in accordance with the recommendations set out by ISO/IEC 42001.
+### 1.1 Purpose
+To define the principles and requirements for the responsible use of Artificial Intelligence (AI) in the FinApp project, in accordance with ISO/IEC 42001:2023.
 
-## 2. Scope
-
+### 1.2 Scope
 This policy applies to all interactions with AI systems, including Large Language Models (LLMs) and other AI tools, in the context of the FinApp project.  
 Note: At this time, AI LLMs are only consulted to assist in project development (e.g., code suggestions, documentation, design). No AI or machine learning capabilities are used within the FinApp application itself.
 
-## 3. Policy Statement
+## 2. Policy Statement
+The FinApp project is committed to ensuring the ethical, secure, and responsible use of AI, aligning with ISO/IEC 42001:2023 for AI governance and risk management. All AI systems or tools consulted during development must be used with transparency and integrity, with a clear distinction between tool-assisted development and application functionality.
 
-The FinApp project is committed to ensuring the ethical, secure, and responsible use of AI, aligning with international standards for AI governance and risk management. All AI systems or tools consulted during development must be used with transparency and integrity, with a clear distinction between tool-assisted development and application functionality.
+## 3. Policy Objectives
+- Ensure transparency and documentation of all AI use in development.
+- Promote ethical use of AI, respecting privacy, copyright, and legal standards.
+- Prevent sharing of sensitive or personal data with external AI systems or LLMs.
+- Require human oversight and approval of all AI-assisted outputs before integration.
+- Prohibit embedded AI or machine learning features in the application unless a risk assessment is completed.
+- Conduct risk assessments prior to any future AI integration, considering security, bias, reliability, and compliance.
 
-## 4. Principles
+## 4. Roles & Responsibilities
 
-- Transparency: Any use of AI in development must be documented and disclosed in project records.
-- Ethical Use: AI tools must be used ethically, respecting privacy, copyright, and legal standards. Sensitive or personal data must not be shared with external AI systems or LLMs.
-- Human Oversight: All outputs from AI-assisted development must be reviewed and approved by a human well versed on the input subject matter before integration into the project.
-- No Embedded AI: The FinApp application does not currently use or offer any AI or machine learning features to users. This policy will be updated if this status changes.
-- Risk Assessment: Any decision to incorporate AI capabilities into the FinApp application in the future will be preceded by a risk assessment, including considerations for security, bias, reliability, and compliance.
+| Role           | Responsibilities                                                                 |
+|----------------|----------------------------------------------------------------------------------|
+| Project Owner  | Ensures all AI use aligns with this policy, reviews changes in AI use, and maintains documentation. |
+| Contributors   | Adhere to this policy when consulting or using AI tools, report concerns or breaches. |
 
-## 5. Responsibilities
+## 5. AI Use Activities
 
-- The Project Owner is responsible for ensuring that all use of AI in development aligns with this policy and for reviewing any changes in AI use.
-- All contributors must adhere to this policy when consulting or using AI tools and must report any concerns or breaches.
+### 5.1 Documentation and Transparency
+- Document and disclose all use of AI in project records.
 
-## 6. Related Documents
+### 5.2 Ethical and Secure Use
+- Use AI tools ethically, respecting privacy, copyright, and legal standards.
+- Do not share sensitive or personal data with external AI systems.
 
-- [Information Security Policy](./01%20Information%20Security%20Policy.md)
-- [Data Privacy and Protection Policy](./07%20Data%20Privacy%20and%20Protection%20Policy.md)
-- [Continuous Improvement Policy](./05%20Continuous%20Improvement%20Policy.md)
+### 5.3 Human Oversight
+- Review and approve all AI-assisted outputs before integration.
 
-## 7. Review
+### 5.4 Risk Assessment and Change Management
+- Conduct risk assessments before integrating AI capabilities into the application.
+- Update this policy if the status of AI use changes.
 
-This policy shall be reviewed annually, or immediately upon any proposal to incorporate AI capabilities into the FinApp application.
+---
 
-## 8. References
+## Appendix
 
-- ISO/IEC 42001: Artificial Intelligence Management System Standard
-
-## 9. Version History
-
+### A. Version History
 Version history is maintained in the git commit log.
+
+### B. References
+- ISO/IEC 42001:2023 Artificial Intelligence Management System Standard
+
+### C. Definitions
+| Word                | Definition                                                                 |
+|---------------------|----------------------------------------------------------------------------|
+| Artificial Intelligence (AI) | Systems that perform tasks normally requiring human intelligence, such as reasoning, learning, and decision-making. |
+| Large Language Model (LLM)   | AI models trained on large datasets to generate human-like text and assist with development
