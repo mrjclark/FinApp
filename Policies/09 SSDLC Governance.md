@@ -1,3 +1,12 @@
+---
+policy_ID: "P00"
+title: "Policy Template"
+status: "Draft"                # Options: Draft, Approved, Deprecated
+document_owner: ""
+document_maintainer: ""
+last_approved: "YYYYMMDD"
+next_review: "YYYYMMDD"
+---
 # SSDLC Governance Policy
 Document Status: Withdrawn, merged into and superceded by [02 Software Development Charter.md](./02%20Software%20Development%20Charter.md)
 

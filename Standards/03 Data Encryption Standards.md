@@ -1,3 +1,12 @@
+---
+document_ID: "S00"
+title: "Standard Template"
+status: "Draft"                # Options: Draft, Approved, Deprecated
+document_owner: ""
+document_maintainer: ""
+last_approved: "YYYYMMDD"
+next_review: "YYYYMMDD"
+---
 # [Document Title]
 Document Status: Draft  
 Document Owner: [Owner Name]  

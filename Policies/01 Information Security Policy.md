@@ -1,5 +1,14 @@
+---
+policy_ID: "P01"
+title: "Information Security Policy"
+status: "Draft"                # Options: Draft, Approved, Deprecated
+document_owner: "mrjclark"
+document_maintainer: "mrjclark"
+last_approved: "YYYYMMDD"
+next_review: "YYYYMMDD"
+---
+
 # Information Security Policy
-Document Status: Draft
 This policy supersedes all previous statements of intent or security posture for the FinApp project.
 
 ## 1. Purpose and Scope
