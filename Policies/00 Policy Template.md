@@ -1,41 +1,57 @@
-# Policy Template
-Document Status:
+---
+policy_ID: "P00"
+title: "Policy Template"
+status: "Draft"                # Options: Draft, Approved, Deprecated
+document_owner: ""
+document_maintainer: ""
+last_approved: "YYYYMMDD"
+next_review: "YYYYMMDD"
+---
+
+# [Policy Title]
 
 ## 1. Purpose & Scope
 
 ### 1.1 Purpose
-Add information about what this policy is about and why it exists
+Briefly describe the intent and scope of this policy.
 
 ### 1.2 Scope
-Add information about all the elements of the project this will cover. Also add which roles will be covered.
+Define who and what is covered by this policy.
 
-## 2. Policy Statement
+## 2. Roles and Responsibilities
+List key roles and what they’re expected to do.
+| Role | Responsibilities |
+|------|------------------|
+| Owner | Establishes and enforces the standard. Reviews and approves exceptions. |
+| Contributors | Implements tasks aligned to the standard. Escalates deviations. |
 
-## 3. Policy Objectives
+## 3. Policy Statements
+[Numbered or bulleted control statements specific to the topic. Use citations and structure with subsections.]
 
-## 4. Roles & Responsibilities
+## 4. Supporting Documentation
+Link to standards or other policies that support this one.
 
-| Role                           | Responsibilities                                                                                     |
-|---------------------------------|-----------------------------------------------------------------------------------------------------|
-| **Project Owner/Senior Manager**| Accountable for approving and reviewing this charter and ensuring adequate resources for security.   |
+## 5. Exceptions
+There will be no exceptions to policies. Policies will be upheld by all project members at all times.
 
+## 6. Review & Maintenance
+* Reviewed annually or upon significant changes.
 
-## 4. Item
-
-### 4.1 Subitem
+## 7. References
+- NIST [Relevant Publications]  
+- OWASP / CIS / Additional frameworks  
+- Internal policy or repo links (if applicable)
 
 ---
 
 ## Appendix
 
-### A. Version History
-Version history is tracked in the Git commit log.
+### A. Definitions
+| Term | Definition |
+|------|------------|
+| {{Term}} | {{Definition}} |
 
-### B. References
-- ISO/IEC 27001:2022 
-- NIST SSDF
-- OWASP ASVS
+### B. Version History
+Version history tracked via Git commit log.
 
-### C. Definitions
-| Word | Definition |
-| --- | --- |
+

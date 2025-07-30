@@ -1,9 +1,14 @@
+---
+standard_ID: "S00"
+title: "00 Standards Template.md"
+status: Draft       # Options: "Draft", "Approved", "Deprecated"  
+document_owner: ""  
+document_maintainer: ""  
+last_approval: "YYYYMMDD"  
+next_review: "YYYYMMDD"  
+---
+
 # [Document Title]
-Document Status: Draft  
-Document Owner: [Owner Name]  
-Document Updater: [Maintainer Name]  
-Approval Date: [YYYYMMDD]  
-Next Review Date: [YYYYMMDD]  
 
 ## 1. Purpose & Scope
 
@@ -14,6 +19,7 @@ Next Review Date: [YYYYMMDD]
 [Define who and what the standard applies to—systems, personnel, environments.]
 
 ## 2. Roles & Responsibilities
+List key roles and what they’re expected to do.
 | Role | Responsibilities |
 |------|------------------|
 | Owner | Establishes and enforces the standard. Reviews and approves exceptions. |
@@ -25,7 +31,7 @@ Next Review Date: [YYYYMMDD]
 ### 3.1 [Subsection Title]
 - Requirement statement 1  
 - Requirement statement 2  
-*Cite: ISO/IEC 27001:2022 [Control Ref], NIST SP 800-53 [Control ID]*
+*Cite: NIST SP 800-53 [Control ID]*
 
 ### 3.2 [Subsection Title]
 - Additional requirements...
@@ -36,25 +42,24 @@ Next Review Date: [YYYYMMDD]
 ## 5. Exceptions
 - Exceptions must be documented, risk-assessed, and approved.
 - Reviewed at least annually.  
-*Cite: ISO/IEC 27001:2022, NIST SP 800-53 PM-1*
+*Cite: NIST SP 800-53 PM-1*
 
 ## 6. Review & Maintenance
-- Reviewed annually or upon significant changes.
-- Change log maintained in version history or Git.
+* Reviewed annually or upon significant changes.
 
 ## 7. References
-- ISO/IEC [Relevant Standards]  
 - NIST [Relevant Publications]  
 - OWASP / CIS / Additional frameworks  
 - Internal policy or repo links (if applicable)
+
+---
 
 ## Appendix
 
 ### A. Definitions
 | Term | Definition |
 |------|------------|
-| [Term] | [Definition] |
-| [Term] | [Definition] |
+| {{Term}} | {{Definition}} |
 
 ### B. Version History
 Version history tracked via Git commit log.
