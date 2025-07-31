@@ -14,7 +14,7 @@ This policy supersedes all previous statements of intent or security posture for
 ## 1. Purpose and Scope
 
 ### 1.1 Purpose
-FinApp is an open-source initiative devoted to cultivating secure software development through wisdom in architecture, courage in execution, justince in protection, and temperance in review. This project is to champion security through stewardship. We are all responsible for preserving data integrity and confidentiality not through obligation, but with the understanding that it is a right that all collaborators and users deserve. The project is designed to empower developers and inspire confidence in those who are looking for intentional governance rooted in trust, transparency, and continual growth.
+FinApp is an open-source initiative devoted to cultivating secure software development through wisdom in architecture, courage in execution, justice in protection, and temperance in review. This project is to champion security through stewardship. We are all responsible for preserving data integrity and confidentiality not through obligation, but with the understanding that it is a right that all collaborators and users deserve. The project is designed to empower developers and inspire confidence in those who are looking for intentional governance rooted in trust, transparency, and continual growth.
 
 This Information Security Policy establishes the principles, objectives, and governance structure for the FinApp project. It sets forth the commitment to secure information assets and provides the foundation for all supporting standards, procedures, and guidelines.
 
@@ -26,7 +26,7 @@ FinApp is committed to protecting the confidentiality, integrity, and availabili
 
 ## 3. Information Security Objectives
 - Protect personal financial data and all project-related information from unauthorized access, disclosure, alteration, or destruction.
-- Align security practices with NIST SSDF, OWASP ASVS, and ISO/IEC 27001:2022.
+- Align security practices with NIST. Other sources from ISO, OWASP, or CIS may be cited as compensating or complimentary controls.
 - Maintain a secure software development lifecycle (SSDLC) and support continuous improvement.
 - Ensure risk is effectively managed through assessment, treatment, monitoring, and review.
 - Foster a culture of security awareness and accountability among all contributors.
@@ -68,9 +68,7 @@ This project is licensed under the Polyform Noncommercial License 1.0.0. See `LI
 Version history is tracked in the Git commit log.
 
 ### B. References
-- ISO/IEC 27001:2022 
-- NIST SSDF
-- OWASP ASVS
+- NIST SP 800-53 rev 5
 
 ### C. Definitions
 | Word | Definition |
