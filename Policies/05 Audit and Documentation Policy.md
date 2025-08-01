@@ -59,6 +59,13 @@ The FinApp project is committed to maintaining a robust internal audit process a
 - Retain Audit Data  
   - Maintain logs for a defined retention period to support investigations and compliance.
 
+- Alerts to Audit Logging Failures
+  - Determine limits and thresholds that determine an audit logging failure.
+  - Implement monitoring to detect and alert on audit logging failures.
+
+- Response to Audit Logging Failures
+  -Define procedures for responding to audit logging failures, including escalation paths.
+
 ### 5.2 Documentation Activities
 
 - Maintain System Security Plan (SSP)  
