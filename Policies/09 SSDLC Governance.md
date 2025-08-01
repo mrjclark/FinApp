@@ -1,7 +1,7 @@
 ---
 policy_ID: "P00"
 title: "Policy Template"
-status: "Draft"                # Options: Draft, Approved, Deprecated
+status: "Deprecated"                # Options: Draft, Approved, Deprecated
 document_owner: ""
 document_maintainer: ""
 last_approved: "YYYYMMDD"
