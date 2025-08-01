@@ -152,11 +152,15 @@ FinApp is committed to using secure development practices to ensure data confide
 ## 12. Asset and Data Classification
 - All data and assets will require a classification to ensure appropriate protection measures are applied.
 
-## 13. Periodic Review and Audit
-- There will be annual reviews and audits of security controls, policies, and procedures.
+## 13. Exceptions
+There will be no exceptions to policies. Policies will be upheld by all project members at all times.
 
-## 14. Policy Reference & Hierarchy
-- This charter operates under the [Information Security Policy](./Information%20Security%20Policy.md) and is supported by related policies, standards, and procedures.
+## 14. Review & Maintenance
+* Reviewed annually or upon significant changes.
+
+## 15. References
+- [NIST SP 800-160 Vol. 1 Rev. 1: Engineering Trustworthy Secure Systems](https://csrc.nist.gov/pubs/sp/800/160/v1/r1/final)
+- [OWASP SAMM](https://owaspsamm.org/about/)
 
 ---
 
@@ -165,6 +169,3 @@ FinApp is committed to using secure development practices to ensure data confide
 ### A. Version history
 - Version history is maintained in the Git commit log
 
-### B. References
-- [NIST SP 800-160 Vol. 1 Rev. 1: Engineering Trustworthy Secure Systems](https://csrc.nist.gov/pubs/sp/800/160/v1/r1/final)
-- [OWASP SAMM](https://owaspsamm.org/about/)
