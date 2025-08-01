@@ -54,25 +54,28 @@ Compliance with policies is mandatory. Violations may result in removal of contr
 ## 8. Policy Awareness and Communication
 This policy and all supporting documents will be made publicly available in the repository. All contributors must review these documents prior to participation. Updates will be communicated via repository updates and commit messages.
 
-## 9. Policy Maintenance and Review
-All policies will be reviewed at least annually, or when significant changes occur in project scope, legal requirements, or industry standards.
+## 9. Exceptions
+There will be no exceptions to policies. Policies will be upheld by all project members at all times.
 
-## 10. Licensing and Use Limitations
+## 10. Review & Maintenance
+* Reviewed annually or upon significant changes.
+
+### B. References
+- NIST SP 800-53 rev 5
+
+## 11. Licensing and Use Limitations
 This project is licensed under the Polyform Noncommercial License 1.0.0. See `LICENSE.md` for details.
 
 ---
 
 ## Appendix
 
-### A. Version History
-Version history is tracked in the Git commit log.
-
-### B. References
-- NIST SP 800-53 rev 5
-
-### C. Definitions
+### A. Definitions
 | Word | Definition |
 | --- | --- |
 | Confidentiality | Protection against unauthorized disclosure of information. |
 | Integrity | Protection against unauthorized modification or destruction of information. |
 | Availability | Ensuring information and resources are accessible when needed. |
+
+### B. Version History
+Version history is tracked in the Git commit log.
