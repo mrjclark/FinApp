@@ -1,6 +1,6 @@
 ---
-policy_ID: "P00"
-title: "Policy Template"
+policy_ID: "P02"
+title: "Software Development Charter"
 status: "Draft"                # Options: Draft, Approved, Deprecated
 document_owner: ""
 document_maintainer: ""
@@ -8,12 +8,11 @@ last_approved: "YYYYMMDD"
 next_review: "YYYYMMDD"
 ---
 # Software Development Charter
-Document status: Draft
 
 ## 1. Purpose & Scope
 
 ### 1.1 Purpose
-This charter, endorsed by project leadership, defines the security principles and commitments guiding the development of FinApp. It establishes clear roles, responsibilities, and governance for secure development using industry standards based around ISO27001:2022 and NIST SSDF 800 series.
+This charter, endorsed by project leadership, is grounded in the principles of systems security engineering as defined in NIST SP 800-160 Vol. 1 Rev. 1, "Engineering Trustworthy Secure Systems." It emphasizes stakeholder protection needs, mission assurance, and cyber resiliency across the system life cycle.
 
 ### 1.2 Scope
 - Applies to all phases of development, as well as all assets created as part of the development.
@@ -89,6 +88,7 @@ FinApp is committed to using secure development practices to ensure data confide
 - Test system recovery, failover, and continuity mechanisms.
 - Verify secure integration of third-party and supply chain components.
 - Document test results and remediation actions.
+- Maintain and validate assurance cases to demonstrate fulfillment of stakeholder protection needs and trustworthiness goals.
 
 ### 3.7 Deployments & Operations
 - Harden configurations and enforce secure defaults prior to deployment.
@@ -99,6 +99,7 @@ FinApp is committed to using secure development practices to ensure data confide
 - Maintain operational resilience and incident response plans.
 - Conduct regular security reviews and audits of deployed systems.
 - Treat operations vigilance as a practice of stewardship.
+- Sustain assurance cases and traceability artifacts to support long-term trustworthiness.
 
 ### 3.8 Maintenance & Disposals
 - Continuously monitor for new threats and vulnerabilities.
@@ -165,4 +166,5 @@ FinApp is committed to using secure development practices to ensure data confide
 - Version history is maintained in the Git commit log
 
 ### B. References
-- References: [NIST SSDF](https://csrc.nist.gov/publications/detail/white-paper/2022/secure-software-development-framework/final), [OWASP](https://owasp.org/), ISO/IEC 27001:2022
+- [NIST SP 800-160 Vol. 1 Rev. 1: Engineering Trustworthy Secure Systems](https://csrc.nist.gov/pubs/sp/800/160/v1/r1/final)
+- [OWASP SAMM](https://owaspsamm.org/about/)
