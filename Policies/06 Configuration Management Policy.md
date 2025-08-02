@@ -12,7 +12,7 @@ next_review: "YYYYMMDD"
 ## 1. Purpose & Scope
 
 ### 1.1 Purpose
-To define the principles and requirements for effective configuration management within the FinApp project, ensuring the integrity, consistency, and traceability of configurations in accordance with ISO/IEC 27001:2022.
+To define the principles and requirements for effective configuration management within the FinApp project, ensuring the integrity, consistency, and traceability of configurations in accordance with NIST SP 800-128, NIST SP 800-53 Rev. 5, and NIST SP 800-218 Ver. 1.1.
 
 ### 1.2 Scope
 This policy applies to all configuration items, systems, applications, environments, and supporting documentation relevant to the FinApp project. All project roles are covered.

@@ -12,7 +12,7 @@ next_review: "YYYYMMDD"
 ## 1. Purpose & Scope
 
 ### 1.1 Purpose
-To establish the principles and requirements for internal audit and documentation within the FinApp project, supporting continual improvement and compliance with .
+To establish the principles and requirements for internal audit and documentation within the FinApp project, supporting continual improvement and compliance with NIST SP 800-53 Rev. 5.
 
 ### 1.2 Scope
 This policy applies to all processes, controls, and documentation relating to information security for the FinApp project. All project roles are covered.
