@@ -18,26 +18,29 @@ Briefly describe the intent and scope of this policy.
 ### 1.2 Scope
 Define who and what is covered by this policy.
 
-## 2. Roles and Responsibilities
+## 2. Policy Statements
+[Numbered or bulleted control statements specific to the topic. Use citations and structure with subsections.]
+
+## 3. Policy Objectives
+
+## 4. Roles and Responsibilities
 List key roles and what they’re expected to do.
 | Role | Responsibilities |
 |------|------------------|
 | Owner | Establishes and enforces the standard. Reviews and approves exceptions. |
 | Contributors | Implements tasks aligned to the standard. Escalates deviations. |
 
-## 3. Policy Statements
-[Numbered or bulleted control statements specific to the topic. Use citations and structure with subsections.]
 
-## 4. Supporting Documentation
+## 5. Supporting Documentation
 Link to standards or other policies that support this one.
 
-## 5. Exceptions
+## 6. Exceptions
 There will be no exceptions to policies. Policies will be upheld by all project members at all times.
 
-## 6. Review & Maintenance
+## 7. Review & Maintenance
 * Reviewed annually or upon significant changes.
 
-## 7. References
+## 8. References
 - NIST [Relevant Publications]  
 - OWASP / CIS / Additional frameworks  
 - Internal policy or repo links (if applicable)
