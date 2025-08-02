@@ -99,6 +99,7 @@ There will be no exceptions to policies. Policies will be upheld by all project 
 | Word                | Definition                                                                 |
 |---------------------|----------------------------------------------------------------------------|
 | Configuration Management | The disciplined practice of defining, implementing, and maintaining the integrity of our technical environment—including system identities, secrets, automation workflows, and deployment pipelines—so that every change is intentional, traceable, and aligned with our commitments. |
+| Configuration Management Plan (CMP) | A structured, living document that defines how configuration items are identified, controlled, verified, and audited across the system lifecycle. It establishes the roles, procedures, tools, and symbolic practices that ensure configurations remain secure, consistent, and traceable. |
 | Configuration Item  | Any system, application, environment, or documentation subject to configuration management. |
 | Baseline            | A formally agreed configuration item, serving as a basis for further development.|
 
