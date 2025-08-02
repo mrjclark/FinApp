@@ -1,6 +1,6 @@
 ---
-policy_ID: "P00"
-title: "Policy Template"
+policy_ID: "P16"
+title: "Supplier Relationship Policy"
 status: "Draft"                # Options: Draft, Approved, Deprecated
 document_owner: ""
 document_maintainer: ""
@@ -8,8 +8,6 @@ last_approved: "YYYYMMDD"
 next_review: "YYYYMMDD"
 ---
 # Supplier Relationship Policy
-
-Document Status: Draft
 
 ## 1. Purpose & Scope
 
@@ -33,42 +31,72 @@ The FinApp project is committed to managing risks associated with the use of thi
 
 ## 4. Roles & Responsibilities
 
-| Role           | Responsibilities                                                                 |
-|----------------|----------------------------------------------------------------------------------|
-| Project Owner  | Reviews, approves, and maintains the list of suppliers; ensures compliance with this policy. |
-| Contributors   | Follow the policy when selecting or updating third-party components.              |
+| Roles                              | Responsibilities                                                                                          |
+|-----------------------------------|------------------------------------------------------------------------------------------------------------|
+| Supply Chain Risk Manager         | Develop and maintain supply chain risk management policies and plans          |
+| Acquisition/Procurement Officer   | Ensure contracts include cybersecurity requirements for suppliers            |
+| Supplier Relationship Coordinator | Coordinate supplier onboarding, assessments, and reviews                       |
+| Incident Response Liaison         | Coordinate incident handling and reporting with suppliers       |
+| External Assessment Analyst       | Conduct or manage third-party control assessments and reviews                  |
+| Legal and Compliance Advisor      | Review supplier agreements for regulatory alignment and risk clauses             |
+| Supplier Performance Monitor      | Track supplier compliance, performance goals, and risk indicators                  |
+| System Owner                      | Integrate supplier risk considerations into system lifecycle planning            |
+| Cybersecurity Governance Lead     | Align third-party risk roles with enterprise governance strategy                   |
+| Supplier Security Liaison         | Share threat intelligence and coordinate remediation with suppliers              |
+           |
 
-## 5. Supplier Relationship Activities
+## 5. Third-Party and Supplier Security Activities
 
-### 5.1 Supplier Evaluation and Selection
-- Evaluate suppliers for reputation, maintenance, and community support.
-- Review security, licensing, and maintenance status before adoption.
+### 5.1 Supply Chain Governance
+  - Develop and maintain a supply chain risk management policy and procedures 
+  - Assign roles and responsibilities for supplier oversight and coordination 
+  - Integrate third-party risk into enterprise risk management strategy 
 
-### 5.2 Supplier Inventory and Documentation
-- Document and maintain an inventory of all suppliers and third-party components.
+### 5.2 Supplier Risk Planning
+  - Create and maintain a supply chain risk management plan 
+  - Define supplier risk thresholds, review cycles, and escalation protocols 
+  - Protect supplier risk documentation from unauthorized access or modification 
 
-### 5.3 Dependency Management
-- Keep dependencies up to date.
-- Monitor and remediate known vulnerabilities.
+### 5.3 Supplier Controls and Assessments
+  - Establish controls to mitigate supply chain risks 
+  - Conduct supplier assessments and reviews 
+  - Leverage external assessments and SOC 2 reports where applicable 
 
-### 5.4 Change Management
-- Approve changes or additions to suppliers through the Project Owner.
+### 5.4 Contractual and Legal Safeguards
+  - Include cybersecurity and privacy requirements in acquisition contracts 
+  - Define notification agreements for supply chain compromises 
+  - Ensure suppliers comply with organizational security and privacy controls 
 
-### 5.5 Incident Management
-- Report and manage security incidents or vulnerabilities related to suppliers according to the Incident Response Handling Policy.
+### 5.5 Monitoring and Incident Coordination
+  - Monitor supplier performance and risk indicators throughout the lifecycle 
+  - Include suppliers in incident response planning and exercises 
+  - Share threat intelligence and breach data with suppliers as appropriate 
+
+### 5.6 Resilience and Recovery
+  - Coordinate contingency plans with external service providers 
+  - Include suppliers in business continuity and disaster recovery planning 
+
+## 6. Exceptions
+There will be no exceptions to policies. Policies will be upheld by all project members at all times.
+
+## 7. Review & Maintenance
+* Reviewed annually or upon significant changes.
+
+## 8. References
+- [NIST SP 800-53 Rev. 5](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
+- [NIST SP 800-161 Rev. 1](https://csrc.nist.gov/publications/detail/sp/800-161/rev-1/final)
+- [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework)
 
 ---
 
 ## Appendix
 
-### A. Version History
-Version history is maintained in the git commit log.
-
-### B. References
-- ISO/IEC 27001:2022 Clauses A.5.19, A.5.20
-
-### C. Definitions
-| Word                | Definition                                                                 |
-|---------------------|----------------------------------------------------------------------------|
+### A. Definitions
+| Term | Definition |
+|------|------------|
 | Supplier            | Any third-party entity providing libraries, frameworks, tools, or environments for the project. |
 | Dependency          | A third-party component required for the operation or development of the FinApp project. |
+
+### B. Version History
+Version history tracked via Git commit log.
+

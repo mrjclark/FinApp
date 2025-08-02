@@ -1,6 +1,6 @@
 ---
-policy_ID: "P00"
-title: "Policy Template"
+policy_ID: "P12"
+title: "Continuity Policy"
 status: "Draft"                # Options: Draft, Approved, Deprecated
 document_owner: ""
 document_maintainer: ""
@@ -8,7 +8,6 @@ last_approved: "YYYYMMDD"
 next_review: "YYYYMMDD"
 ---
 # Continuity Policy
-Document Status: Draft
 
 ## 1. Purpose & Scope
 
@@ -31,42 +30,73 @@ The FinApp project is committed to ensuring the continuity of its core functions
 
 ## 4. Roles & Responsibilities
 
-| Role             | Responsibilities                                                                 |
-|------------------|----------------------------------------------------------------------------------|
-| Application Owner| Develops, maintains, and tests continuity and recovery plans.                     |
-| Users            | Understand and execute assigned continuity and recovery tasks as required.        |
+| Role                          | Responsibility                                                                 |
+|----------------------------------|-------------------------------------------------------------------------------------|
+| Contingency Planning Policy Author | Define and disseminate the organization’s contingency planning policy.             |
+| Recovery Steward          | Assign and document recovery roles, contact info, and restoration priorities.       |
+| Continuity Trainer        | Provide contingency training tailored to system users and their roles.              |
+| Test Coordinator          | Conduct and review contingency plan testing and exercises.                          |
+| Alternate Site Manager | Manage alternate storage, processing, and telecom services.                         |
+| Backup Operator           | Execute, protect, and validate system backups.                                      |
+| Restoration Lead          | Oversee system recovery and reconstitution aligned with RTO/RPO objectives.         |
+| Protocol Steward       | Implement alternative protocols and supplemental security mechanisms.               |
+| Senior Leadership  | Define scope, roles, and compliance requirements for continuity planning.           |
+| BIA Lead         | Conduct Business Impact Analysis to identify critical functions and dependencies.   |
+| Preventive Control Analyst  | Implement safeguards to reduce risk and support continuity.                        |
+| Strategy Architect  | Define contingency strategies including alternate sites and restoration paths.     |
+| Continuity Plan Author  | Document procedures and assign recovery roles in the formal plan.                  |
+| Exercise Facilitator  | Conduct training, drills, and update materials based on test outcomes.             |
+| Governance Maintainer  | Review and update the plan periodically; reassign roles as needed.                 |
 
-## 5. Continuity Activities
 
-### 5.1 Identification and Prioritization
-- Identify and prioritize essential processes and data for continuity planning.
+## 5. Continuity and Recovery Activities
 
-### 5.2 Impact Analysis and Risk Assessment
-- Conduct impact analysis and risk assessments to determine continuity requirements.
+### 5.1 Develop the Contingency Planning Policy
+- Establish and disseminate a formal contingency planning policy
+- Define roles and responsibilities for continuity and recovery operations
+- Ensure alignment of continuity planning with organizational risk management strategy
 
-### 5.3 Continuity and Recovery Planning
-- Develop, document, and maintain continuity and recovery plans.
+### 5.2 Conduct the Business Impact Analysis (BIA)
+- Conduct a Business Impact Analysis (BIA) to identify critical functions and dependencies
+- Define Recovery Time Objectives (RTO) and Recovery Point Objectives (RPO) for systems
 
-### 5.4 Testing and Review
-- Regularly test, review, and update continuity and recovery plans.
+### 5.3 Identify Preventive Controls
+- Identify and implement preventive controls to reduce system disruption risk
 
-### 5.5 Improvement
-- Use lessons learned from disruptions and exercises to improve continuity processes.
+### 5.4 Create Contingency Strategies
+- Develop contingency strategies for alternate processing, storage, and telecommunications
+- Maintain documentation of alternate protocols and supplemental security mechanisms for degraded operations
 
+### 5.5 Develop the Contingency Plan
+- Document system-specific contingency plans with recovery procedures and contact information
+- Establish backup and restoration procedures, including validation and protection mechanisms
+- Integrate contingency planning into the system development life cycle
+
+### 5.6 Test, Train, and Exercise
+- Plan and conduct regular contingency training for personnel with assigned roles
+- Schedule and execute contingency plan testing and exercises
+
+### 5.7 Maintain the Plan
+- Review and update contingency plans periodically to reflect system changes and lessons learned
+
+## 6. Exceptions
+There will be no exceptions to policies. Policies will be upheld by all project members at all times.
+
+## 7. Review & Maintenance
+* Reviewed annually or upon significant changes.
+
+## 8. References
+- [NIST SP 800-53 Rev. 5](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf)
+- [NIST SP 800-34 Rev. 1](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-34r1.pdf)
 ---
 
 ## Appendix
 
-### A. Version History
-Version history is maintained in the git commit log.
-
-### B. References
-- ISO/IEC 27001:2022 Clauses 8.4, A.5.29, A.17
-- [Incident Response Handling Policy](./08%20Incident%20Response%20Handling%20Policy.md)
-- [Risk Assessment Policy](./03%20Risk%20Assessment%20Policy.md)
-
-### C. Definitions
-| Word                | Definition                                                                 |
-|---------------------|----------------------------------------------------------------------------|
+### A. Definitions
+| Term | Definition |
+|------|------------|
 | Continuity          | The ability to maintain or restore essential functions and data following a disruption. |
 | Recovery Plan       | Documented procedures for restoring operations and data after a disruption. |
+
+### B. Version History
+Version history tracked via Git commit log.

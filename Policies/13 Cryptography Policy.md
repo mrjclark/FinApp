@@ -1,6 +1,6 @@
 ---
-policy_ID: "P00"
-title: "Policy Template"
+policy_ID: "P13"
+title: "Cryptography Policy"
 status: "Draft"                # Options: Draft, Approved, Deprecated
 document_owner: ""
 document_maintainer: ""
@@ -8,7 +8,6 @@ last_approved: "YYYYMMDD"
 next_review: "YYYYMMDD"
 ---
 # Cryptography Policy
-Document Status: Draft
 
 ## 1. Purpose & Scope
 
@@ -32,39 +31,69 @@ The FinApp project is committed to using appropriate cryptographic controls to p
 
 ## 4. Roles & Responsibilities
 
-| Role             | Responsibilities                                                                 |
-|------------------|----------------------------------------------------------------------------------|
-| Application Owner| Approves cryptographic methods, maintains documentation, ensures compliance.      |
-| Contributors     | Adhere to cryptographic practices, report suspected weaknesses or incidents.      |
+| Role                                | Responsibility                                                                 |
+|-------------------------------------|---------------------------------------------------------------------------------|
+| Policy Author                       | Define organizational requirements for cryptographic protection of information. |
+| Cryptographic Standards Advisor     | Select approved algorithms and key lengths based on NIST guidance.              |
+| Key Management Officer              | Establish procedures for key generation, distribution, storage, and destruction.|
+| System Architect                    | Specify use cases for symmetric vs. asymmetric cryptography in system design.   |
+| Compliance Officer                  | Ensure use of validated cryptographic modules (e.g., FIPS 140-3 compliant).     |
+| Digital Signature Coordinator       | Define procedures for signature creation and verification.                      |
+| Identity Authentication Lead        | Implement cryptographic identity mechanisms (e.g., certificates, tokens).       |
+| Integrity Assurance Analyst         | Apply MACs and hashing to ensure message integrity.                             |
+| Key Establishment Engineer          | Design secure key exchange and agreement protocols.                             |
+| Random Bit Generation Steward       | Use approved DRBGs for cryptographic randomness.                                |
+| Crypto Agility Planner              | Monitor algorithm lifecycle and plan for transitions (e.g., post-quantum).      |
+| Acquisition Manager                 | Integrate cryptographic requirements into procurement and system onboarding.    |
 
 ## 5. Cryptography Activities
 
-### 5.1 Cryptographic Control Application
-- Apply cryptographic controls to data at rest, in transit, and as required.
+### 5.1 Cryptographic Governance
+- Define organizational requirements for cryptographic protection of sensitive information
+- Document roles and responsibilities for cryptographic operations and oversight
+- Ensure use of validated cryptographic modules (e.g., FIPS 140-3 compliant)
+- Integrate cryptographic controls into system development and acquisition processes
+- Align cryptographic policy with FISMA and OMB A-130 requirements
 
 ### 5.2 Algorithm and Key Management
-- Use only approved algorithms, protocols, and key lengths.
-- Generate, store, distribute, retire, and destroy keys securely.
+- Select approved cryptographic algorithms and key lengths based on NIST standards
+- Specify use cases for symmetric vs. asymmetric cryptography
+- Establish procedures for key generation, distribution, storage, and destruction
+- Plan for algorithm transitions and crypto agility based on NIST guidance
 
-### 5.3 Access and Confidentiality
-- Protect private keys and passwords from unauthorized access.
+### 5.3 Authentication and Integrity
+- Define procedures for digital signature creation and verification
+- Establish identity authentication mechanisms using cryptographic methods
+- Implement message authentication codes (MACs) for integrity assurance
 
-### 5.4 Review and Improvement
-- Regularly review cryptographic controls and update as needed.
-- Implement compensating controls if encryption is not feasible.
+### 5.4 Key Establishment and Exchange
+- Define protocols for secure key establishment and agreement
+- Ensure confidentiality and authenticity during key exchange processes
+
+### 5.5 Randomness and Entropy
+- Require random bit generation using approved deterministic random bit generators (DRBGs)
+- Validate entropy sources and randomness quality for cryptographic operations
+
+## 6. Exceptions
+There will be no exceptions to policies. Policies will be upheld by all project members at all times.
+
+## 7. Review & Maintenance
+* Reviewed annually or upon significant changes.
+
+## 8. References
+- [NIST SP 800-175B Rev. 1](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-175B.pdf) 
 
 ---
 
 ## Appendix
 
-### A. Version History
-Version history is maintained in the git commit log.
-
-### B. References
-- ISO/IEC 27001:2022 Clauses A.8.24, A.10
-
-### C. Definitions
-| Word                | Definition                                                                 |
-|---------------------|----------------------------------------------------------------------------|
+### A. Definitions
+| Term | Definition |
+|------|------------|
 | Cryptographic Control | Measures such as encryption, hashing, and digital signatures used to protect information. |
 | Key Management      | The process of handling cryptographic keys
+
+### B. Version History
+Version history tracked via Git commit log.
+
+

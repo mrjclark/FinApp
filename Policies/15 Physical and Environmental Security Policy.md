@@ -1,6 +1,6 @@
 ---
-policy_ID: "P00"
-title: "Policy Template"
+policy_ID: "P15"
+title: "Physical and Environmental Security Policy"
 status: "Draft"                # Options: Draft, Approved, Deprecated
 document_owner: ""
 document_maintainer: ""
@@ -9,12 +9,10 @@ next_review: "YYYYMMDD"
 ---
 # Physical and Environmental Security Policy
 
-Document Status: Draft
-
 ## 1. Purpose & Scope
 
 ### 1.1 Purpose
-To define the principles and requirements for protecting physical assets and environments associated with the FinApp project, ensuring information security risks related to physical assets and their environments are managed appropriately and in accordance with ISO/IEC 27001:2022.
+To define the principles and requirements for protecting physical assets and environments associated with the FinApp project, ensuring information security risks related to physical assets and their environments are managed appropriately and in accordance with NIST SP 800-53 Rev. 5.
 
 ### 1.2 Scope
 This policy applies to all physical assets, facilities, and environments used by the FinApp project. As of this writing, no physical assets are owned or managed by the project. This policy will become effective and enforced should any physical assets be acquired or used in the future.
@@ -32,44 +30,71 @@ The FinApp project is committed to ensuring the security of any future physical 
 
 ## 4. Roles & Responsibilities
 
-| Role           | Responsibilities                                                                 |
-|----------------|----------------------------------------------------------------------------------|
-| Project Owner  | Implements, maintains, and reviews physical and environmental security controls should physical assets be acquired. |
-| Users          | Comply with this policy and report any breaches or weaknesses in physical and environmental security. |
+| Roles                          | Responsibilities                                                                                   |
+|--------------------------------|-----------------------------------------------------------------------------------------------------|
+| Facility Security Officer      | Develop and maintain physical security policies and procedures                              |
+| Access Authorization Manager   | Approve and manage lists of individuals with authorized facility access                     |
+| Physical Access Control Staff  | Enforce access controls at entry/exit points; verify credentials                            |
+| Transmission Line Custodian    | Control physical access to system transmission lines and cabling                     |
+| Output Device Custodian        | Restrict access to physical output devices to prevent data leakage                          |
+| Physical Monitoring Analyst    | Monitor and review physical access logs; coordinate with incident response teams            |
+| Visitor Log Coordinator        | Maintain and review visitor access records; report anomalies                                |
+| Emergency Response Coordinator | Implement emergency shutoff procedures and coordinate facility response                     |
+| Environmental Systems Manager  | Maintain temperature, humidity, and fire protection systems                          |
+| Alternate Site Coordinator     | Ensure physical protections at alternate work sites                                         |
 
-## 5. Physical and Environmental Security Activities
 
-### 5.1 Physical Asset Protection
-- Apply appropriate security controls to physical assets and facilities.
-- Restrict access to sensitive areas and assets.
+## 5. Physical and Environment Security Activities
 
-### 5.2 Environmental Controls
-- Implement fire alarms, climate control, and power protection as appropriate.
+### 5.1 Physical Access Control
+  - Develop and maintain physical security policies and procedures 
+  - Establish and manage physical access authorizations 
+  - Implement physical access control systems and mechanisms 
+  - Control access to transmission lines and cabling 
+  - Restrict access to physical output devices 
+  - Monitor physical access and maintain access logs 
+  - Maintain visitor access records and review for anomalies 
 
-### 5.3 Visitor and Third-Party Management
-- Supervise and log all visitors or third parties requiring physical access.
+### 5.2 Emergency and Environmental Controls
+  - Define and implement emergency shutoff procedures 
+  - Ensure emergency power systems are available and tested 
+  - Maintain emergency lighting systems for critical areas 
+  - Install and maintain fire protection systems 
+  - Monitor and control temperature and humidity levels 
 
-### 5.4 Secure Storage and Disposal
-- Store physical assets containing sensitive information securely.
-- Establish and follow secure disposal procedures for such assets.
+### 5.3 Facility Management
+  - Protect physical locations housing information systems 
+  - Control access to delivery and loading areas 
+  - Ensure physical protections at alternate work sites 
+  - Define and enforce physical security for mobile devices 
+  - Implement tamper resistance and detection mechanisms 
+
+### 5.4 Policy Oversight and Review
+  - Assign roles for facility security oversight and policy enforcement 
+  - Review and update physical security policies periodically
+  - Coordinate physical security with incident response and contingency planning teams
+
+## 6. Exceptions
+There will be no exceptions to policies. Policies will be upheld by all project members at all times.
+
+## 7. Review & Maintenance
+* Reviewed annually or upon significant changes.
+
+## 8. References
+- [NIST SP 800-53 Rev. 5](https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final)
 
 ---
 
 ## Appendix
 
-### A. Version History
-Version history is maintained in the git commit log.
-
-### B. References
-- ISO/IEC 27001:2022 Clauses A.7 (Physical and Environmental Security), A.5.12, A.5.14
-
-### C. Related Documents
-- [Asset Management Policy](./11%20Asset%20Management%20Policy.md)
-- [Incident Response Handling Policy](./08%20Incident%20Response%20Handling%20Policy.md)
-- [Configuration Management Policy](./06%20Configuration%20Management%20Policy.md)
-
-### D. Definitions
-| Word                | Definition                                                                 |
-|---------------------|----------------------------------------------------------------------------|
-| Physical Asset      | Any tangible item (e.g., hardware, backup media) supporting information processing. |
+### A. Definitions
+| Term | Definition |
+|------|------------|
+| Physical Asset      | Any tangible item  supporting information processing. |
 | Environmental Control | Measures to protect assets from environmental threats such as fire, flood, and power loss. |
+
+### B. Version History
+Version history tracked via Git commit log.
+
+
+
