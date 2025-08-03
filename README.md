@@ -8,4 +8,4 @@ The intent of this project is to:
 - Advance personal proficiency in information security, privacy engineering, and secure architecture.
 - Provide reference materials and methodologies for educational and noncommercial research purposes.
 
-For details on governance, security commitments, and compliance, see the [Information Security Policy](./Information%20Security%20Policy.md).
+For details on governance, security commitments, and compliance, see the [Information Security Policy](./Policies/Information%20Security%20Policy.md).
