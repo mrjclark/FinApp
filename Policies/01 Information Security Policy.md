@@ -31,7 +31,7 @@ FinApp is committed to protecting the confidentiality, integrity, and availabili
 - Ensure risk is effectively managed through assessment, treatment, monitoring, and review.
 - Foster a culture of security awareness and accountability among all contributors.
 
-## 5. Roles and Responsibilities
+## 4. Roles and Responsibilities
 | Role | Responsibilities |
 | --- | --- |
 | Owner (Project Lead) | Responsible for creation, maintenance, removal, adherence to, and training for all policy set forth. |
@@ -39,7 +39,7 @@ FinApp is committed to protecting the confidentiality, integrity, and availabili
 | Reviewers/Auditors | Responsible for reviewing policy or audit logs to return reports on improvements or deficiencies as agreed with the project lead. Reports to recognized governing body, if necessary. |
 | Third Parties | Responsible for providing packaged assets or services as agreed with or documented by the project lead. Reports to their respective organization, if applicable. |
 
-## 6. Policy Hierarchy
+## 5. Policy Hierarchy
 This Information Security Policy is supported by a framework of subordinate documents:
 | Document Type | Definition | Example |
 | --- | --- | --- |
@@ -48,19 +48,19 @@ This Information Security Policy is supported by a framework of subordinate docu
 | Procedures | Describe step-by-step processes to achieve compliance | Incident response steps |
 | Guidelines | Provide recommended (but not mandatory) best practices. | Best practices for code formatting | 
 
-## 7. Enforcement and Compliance
+## 6. Enforcement and Compliance
 Compliance with policies is mandatory. Violations may result in removal of contributor privileges or other corrective actions as determined by the project lead. Compliance is monitored through automated controls, periodic reviews and audits.
 
-## 8. Policy Awareness and Communication
+## 7. Policy Awareness and Communication
 This policy and all supporting documents will be made publicly available in the repository. All contributors must review these documents prior to participation. Updates will be communicated via repository updates and commit messages.
 
-## 9. Exceptions
+## 8. Exceptions
 There will be no exceptions to policies. Policies will be upheld by all project members at all times.
 
-## 10. Review & Maintenance
+## 9. Review & Maintenance
 * Reviewed annually or upon significant changes.
 
-### B. References
+### 10. References
 - NIST SP 800-53 rev 5
 
 ## 11. Licensing and Use Limitations
@@ -71,7 +71,7 @@ This project is licensed under the Polyform Noncommercial License 1.0.0. See `LI
 ## Appendix
 
 ### A. Definitions
-| Word | Definition |
+| Term | Definition |
 | --- | --- |
 | Confidentiality | Protection against unauthorized disclosure of information. |
 | Integrity | Protection against unauthorized modification or destruction of information. |
