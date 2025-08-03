@@ -42,7 +42,6 @@ List key roles and what they’re expected to do.
 ## 5. Exceptions
 - Exceptions must be documented, risk-assessed, and approved.
 - Reviewed at least annually.  
-*Cite: NIST SP 800-53 PM-1*
 
 ## 6. Review & Maintenance
 * Reviewed annually or upon significant changes.
@@ -51,6 +50,10 @@ List key roles and what they’re expected to do.
 - NIST [Relevant Publications]  
 - OWASP / CIS / Additional frameworks  
 - Internal policy or repo links (if applicable)
+
+## 8. Audit & Traceability
+- Compliance is verified through periodic reviews of implementation artifacts.
+- Contributors may be asked to attest to adherence via signed commits or onboarding checklists.
 
 ---
 
