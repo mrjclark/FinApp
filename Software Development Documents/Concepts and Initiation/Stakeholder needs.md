@@ -1,13 +1,25 @@
-
-### 3.2 Concept & Initiation
-- Define stakeholder protection needs and ethical boundaries.
-- Identify mission/business objectives and critical assets.
-- Identify high-level threats, adversaries, and potential impacts.
-- Establish initial risk tolerance and trustworthiness goals.
-- Document assumptions, constraints, and dependencies relevant to security.
-- Identify potential loss scenarios and unacceptable consequences.
-- Frame the product’s purpose as a service to others, not just a technical artifact
-
+---
+title: "Stakeholder Needs"
+status: "Approved"
+version: "0.1"
+author: "mrjclark"
+date_created: "2025-08-06"
+last_updated: "2025-08-06"
+external_linked_controls:
+  nist:
+    - "SP 800-161 Ver 1:SN-1"
+    - "SP 800-161 Ver 1:SN-2"
+  cis:
+    - "[Control Section]"
+  owasp:
+    - "[Document Name]:[Section]"
+related_documents:
+  - "[02 Software Development Charter](/FinApp/Policies/02\ Software\ Development\ Charter.md)"
+contributor_roles:
+  - "Project Lead"
+  - "Developer lead"
+  - "Security Auditor"
+---
 # Stakeholder needs
 
 ## Research
@@ -60,7 +72,7 @@ Based on this, we can see that there are some opportunities for FinApp to make a
 
 ## List of Stakeholder Needs
 
-### Functional Requirements
+### Functional Needs
 - Ability to input expenses
     - This should also allow users to customize categories, update structure and make it easy to understand
     - It should also have templates to speed up tedious tasks for entry
@@ -74,8 +86,10 @@ Based on this, we can see that there are some opportunities for FinApp to make a
     - Automations can create reports, send reports, recycle permission keys
 - The ability to export data for reporting, transfer, or backup should be available
     - There is an inherent risk. An option to encrypt the data should be given.
+- The ability to share expenses, budgets and reports with trusted members
+    - Security will be the most important part so ensuring identity will be requried.
 
-### Non-Functional Requirements
+### Non-Functional Needs
 - App crashes need to be minimized
     - Crash dumps should be sent to developers to help resolve issues
 - Support needs to be available and helpful
@@ -86,7 +100,7 @@ Based on this, we can see that there are some opportunities for FinApp to make a
 - The app should given indications of when it is calculating, or processing.
     - If the app is running slow due to resource constraints, this should be made known to the user
 
-### Security Requirements
+### Security Needs
 - There should be a secure by default setup
     - All data at rest, in transit and in use is encrypted
     - Data exported will be encrypted
