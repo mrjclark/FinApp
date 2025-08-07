@@ -9,10 +9,12 @@ external_linked_controls:
   nist:
     - "SP 800-161 Ver 1:SN-1"
     - "SP 800-161 Ver 1:SN-2"
+    - "SP 800-218:SA-1"
+    - "SP 800-53 Rev 5:AC-6"
   cis:
-    - "[Control Section]"
+    - "CIS Control 4: Secure Configuration"
   owasp:
-    - "[Document Name]:[Section]"
+    - "ASVS 4.0:V1.1"
 related_documents:
   - "[02 Software Development Charter](/FinApp/Policies/02\ Software\ Development\ Charter.md)"
 contributor_roles:
@@ -112,4 +114,12 @@ Based on this, we can see that there are some opportunities for FinApp to make a
 - All input needs to be sanitized to ensure fuzzing techniques cannot be used to defeat encryption, or security features
 - MFA will be used by all non-system accounts
 - Encryption used will be documented
+
+## Stakeholders of the project
+Define key stakeholder types to clarify whose needs are being addressed:
+- Individual Users: Budget-conscious individuals seeking privacy and ease of use
+- Family Units: Shared budgeting and expense tracking across multiple users
+- Security Auditors: Require traceability, encryption transparency, and audit logs
+- Developers: Need modular APIs, clear error handling, and secure integration points
+- Community Contributors: Interested in open governance, symbolic tagging, and stewardship rituals
 
