@@ -121,6 +121,3 @@ Any of these changes will trigger a reassessment to ensure continued alignment w
 - Constraint: Project must remain open-source and non-monetized.
 - Threat: Public visibility increases attack surface; lack of monetization may limit incentives for long-term maintenance.
 
----
-
-Would you like to turn these into a symbolic threat taxonomy or embed them into a markdown risk register template? I can also help you design contributor rituals that reinforce awareness and mitigation of these specific threats.
