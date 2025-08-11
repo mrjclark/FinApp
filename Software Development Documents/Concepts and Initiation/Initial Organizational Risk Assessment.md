@@ -1,23 +1,23 @@
 ---
 title: "Initial Organizational Risk Assessment"
-status: "Draft"
-version: "0.2"
+status: "Approved"
+version: "1.0"
 author: "mrjclark"
-date_created: ""
-last_updated: ""
+date_created: "20250810"
+last_updated: "20260810"
 tags:
   - finapp
   - security-assessment
-external_linked_controls:
-  nist:
-     - "SP 800-30 Rev. 1"
-     - "SP 800-37"
-  cis:
-  owasp:
 related_documents:
   - "[Document Name](Document link)"
 contributor_roles:
-  - "[Who is this audience]"
+  - "Project Lead"
+  - "Auditors"
+  - "Security Engrineer"
+  - "DevSecOps Lead"
+  - "Risk Analyst"
+  - "Contributor Onboarder"
+  - "Third-Party Representative"
 ---
 
 # High-Level Risk Assessment
