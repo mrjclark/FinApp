@@ -1,11 +1,11 @@
 ---
 document_ID: "S01"
 title: "Access Control Implementation Standards"
-status: "Draft"                # Options: Draft, Approved, Deprecated
-document_owner: ""
-document_maintainer: ""
-last_approved: "YYYYMMDD"
-next_review: "YYYYMMDD"
+status: "Approved"                # Options: Draft, Approved, Deprecated
+document_owner: "mrjclark"
+document_maintainer: "mrjclark"
+last_approved: "20250811"
+next_review: "20260811"
 ---
 # Access Control Implementation Standards
 
