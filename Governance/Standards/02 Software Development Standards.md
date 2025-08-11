@@ -1,6 +1,6 @@
 ---
-document_ID: "S00"
-title: "Standard Template"
+document_ID: "S02"
+title: "Software Development Standards"
 status: "Draft"                # Options: Draft, Approved, Deprecated
 document_owner: ""
 document_maintainer: ""
