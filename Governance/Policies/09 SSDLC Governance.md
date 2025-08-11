@@ -2,10 +2,10 @@
 policy_ID: "P09"
 title: "SSDLC Governance Policy"
 status: "Deprecated"                # Options: Draft, Approved, Deprecated
-document_owner: ""
-document_maintainer: ""
-last_approved: "YYYYMMDD"
-next_review: "YYYYMMDD"
+document_owner: "mrjclark"
+document_maintainer: "mrjclark"
+last_approved: "20250810"
+next_review: "20260810"
 ---
 # SSDLC Governance Policy
 Document Status: Withdrawn, merged into and superceded by [02 Software Development Charter.md](./02%20Software%20Development%20Charter.md)

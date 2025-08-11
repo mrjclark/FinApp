@@ -1,11 +1,11 @@
 ---
-policy_ID: "P00"
-title: "Policy Template"
-status: "Draft"                # Options: Draft, Approved, Deprecated
-document_owner: ""
-document_maintainer: ""
-last_approved: "YYYYMMDD"
-next_review: "YYYYMMDD"
+policy_ID: "P07"
+title: "Data Privacy and Protection Policy"
+status: "Approved"                # Options: Draft, Approved, Deprecated
+document_owner: "mrjclark"
+document_maintainer: "mrjclark"
+last_approved: "20250810"
+next_review: "20260810"
 ---
 # Data Privacy and Protection Policy
 Document Status: Draft

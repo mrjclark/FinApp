@@ -1,11 +1,11 @@
 ---
 policy_ID: "P02"
 title: "Software Development Charter"
-status: "Draft"                # Options: Draft, Approved, Deprecated
-document_owner: ""
-document_maintainer: ""
-last_approved: "YYYYMMDD"
-next_review: "YYYYMMDD"
+status: "Approved"                # Options: Draft, Approved, Deprecated
+document_owner: "mrjclark"
+document_maintainer: "mrjclark"
+last_approved: "20250810"
+next_review: "20260810"
 ---
 # Software Development Charter
 
