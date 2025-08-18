@@ -4,8 +4,8 @@ title: "Risk Assessment Policy"
 status: "Approved"                # Options: Draft, Approved, Deprecated
 document_owner: "mrjclark"
 document_maintainer: "mrjclark"
-last_approved: "20250810"
-next_review: "20260810"
+last_approved: "20250817"
+next_review: "20260817"
 ---
 # Risk Assessment Policy
 
