@@ -112,7 +112,7 @@ Each risk assessment will adhere to following minimum requirements for research 
 - Reviewed annually or upon change in risk impacting a system.  
 
 ## 6. Review & Maintenance
-* Reviewed annually or upon significant changes.
+ Reviewed annually or upon significant changes.
 
 ## 7. References
 - NIST RMF  
@@ -125,16 +125,26 @@ Each risk assessment will adhere to following minimum requirements for research 
 ---
 
 ## Appendix
-
-### A. Definitions
-| Term | Definition |
-|------|------------|
-| Risk | {{Definition}} |
-| Risk Event | {{Definition}} |
-| System Security and Privacy Plan | {{Definition}} |
-| Security Assessment Report | {{Definition}} |
-
-
+### Appendix A: Definitions
+| Term                          | Definition |
+|------------------------------|------------|
+| Risk | The potential for an event to occur that could result in loss or disruption to the system, contributors, or project goals. |
+| Risk Event | A specific occurrence or scenario that triggers a deviation from expected outcomes, impacting confidentiality, integrity, or availability. |
+| System Security and Privacy Plan (SSPP) | A consolidated document that defines the system’s security and privacy controls, implementation status, and alignment with risk tolerance strategy. |
+| Security Assessment Report (SAR) | A formal record of control assessments, including procedures, findings, and recommendations for authorization and continuous monitoring. |
+| Confidence Interval (CI) | A statistical range (e.g., 90%) within which the true value of a metric (e.g., time to recover from impact) is expected to fall, based on available data. |
+| Control Baseline | A predefined set of security and privacy controls tailored to the system’s categorization and risk tolerance. |
+| Inherited Control | A control implemented by shared infrastructure or services and adopted by the system without direct implementation. |
+| Hybrid Control | A control that is partially implemented by the system and partially inherited from shared infrastructure. |
+| Plan of Action and Milestones (POA&M) | A document outlining identified weaknesses, planned remediation steps, responsible parties, and timelines for resolution. |
+| Risk Tolerance Strategy | The documented approach for determining acceptable levels of risk, guiding control selection, prioritization, and authorization decisions. |
+| Audit Artifact | Any documented evidence (e.g., logs, checklists, signed commits) used to verify compliance with risk assessment standards. |
+| Calibrated Estimation | A method of expert judgment refined through training and feedback to produce statistically meaningful estimates with confidence intervals. |
+| Monte Carlo Simulation | A computational technique that models the probability of different outcomes by running simulations using random variables. |
+| Impact Recovery Time | The estimated duration required to restore system functionality and contributor trust following a breach or disruption. |
+| Confidence-Weighted Prioritization | A method for ranking risks or controls based on both expected impact and confidence in the estimate. |
+| Contributor Churn Risk | The probability that contributors disengage due to trust erosion, burnout, or breach-related stress. |
+| Control Traceability Matrix | A structured mapping of controls to system components, responsible roles, and audit artifacts. |
 
 ### B. Version History
 Version history tracked via Git commit log.
