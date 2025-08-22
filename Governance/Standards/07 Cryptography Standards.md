@@ -33,9 +33,20 @@ Applies to all FinApp systems, services, contributors, and environments where se
 - Deprecated algorithms (e.g., MD5, SHA-1, DES) are prohibited.
 
 ### 3.2 Key Management 
-- Keys must be generated, stored, and rotated per NIST SP 800-57 Part 1.
-- Keys must be protected using FIPS 140-3 validated modules.
-- Cryptoperiods must be defined based on key type and data sensitivity.
+
+#### 3.2.1 Key Rotation Protocols
+- Keys must be rotated based on defined cryptoperiods, aligned with NIST SP 800-57 Part 1 and SP 800-175B guidance.
+- Rotation must be automated where feasible, with audit logs capturing rotation events and associated metadata.
+- Cryptoperiods must be shortened for high-sensitivity data or exposed trust boundaries.
+
+#### 3.2.2 Key Lifecycle Enforcement
+- Keys must be tagged with lifecycle metadata: creation date, expiration, usage scope, and rotation history.
+- Expired or compromised keys must be revoked immediately and replaced with new keys using secure generation protocols.
+
+#### 3.2.3 Personal Key Usage
+- Personal cryptographic keys (e.g., contributor signing keys) must be unique, traceable, and stored in secure enclaves or hardware tokens.
+- Contributors must not reuse personal keys across environments or roles.
+- Personal keys must be rotated annually or upon role change, with attestation logged in contributor onboarding records.
 
 ### 3.3 Data Protection 
 - Sensitive data must be encrypted at rest and in transit using approved algorithms.
@@ -58,6 +69,35 @@ Applies to all FinApp systems, services, contributors, and environments where se
 - Symmetric cryptography (e.g., AES, HMAC) must be used for internal data protection, MACs, and performance-critical operations.
 - Asymmetric cryptography (e.g., RSA, ECC) must be used for digital signatures, contributor attestations, and non-repudiable actions.
 - Contributors must select methods based on data classification, trust boundaries, and audit requirements.
+
+### 3.8 Implementation Standards
+
+#### 3.8.1 Cryptographic Module Validation
+- All cryptographic implementations must use FIPS 140-3 validated modules.
+- Contributors must verify module validation status prior to deployment and document it in implementation artifacts.
+
+#### 3.8.2 Approved Mechanism Mapping
+- Contributors must select cryptographic mechanisms based on NIST SP 800-175B-approved categories:
+  - Data-at-rest: AES-256 with GCM or CBC
+  - Data-in-transit: TLS 1.3 with forward secrecy
+  - Authentication: HMAC-SHA-256 or digital signatures (RSA/ECC)
+  - Integrity: SHA-2 family with MAC or signature verification
+
+#### 3.8.3 Implementation Traceability
+- Each cryptographic control must be traceable to a control ID, mechanism type, and contributor attestation.
+- Symbolic tags (e.g., AES256-GCM, RSA-SIG) must be used in documentation and commit messages to reinforce clarity and auditability.
+
+### 3.9 Contributor Key Stewardship
+
+#### 3.9.1 Contributor Signing Keys
+- All contributors must use personal signing keys for commits, attestations, and sensitive operations.
+- Keys must be registered during onboarding and validated annually.
+- Signing events must include symbolic tags and commit metadata for traceability.
+
+#### 3.9.2 Key Revocation and Recovery
+- Contributors must report suspected key compromise immediately.
+- Revocation procedures must include automated alerts, access revocation, and issuance of new keys.
+- Recovery rituals must include contributor reflection, attestation, and symbolic recommitment to stewardship.
 
 ## 4. Implementation Guidance
 - Reference guides for AES key generation, TLS configuration, and entropy validation are maintained in the FinApp Procedures Repository.
