@@ -1,14 +1,15 @@
 ---
-standard_ID: "S00"
-title: "00 Standards Template.md"
-status: Draft       # Options: "Draft", "Approved", "Deprecated"  
+standard_ID: "S08"
+title: "Secret and Key Management"
+status: "Deprecated"       # Options: "Draft", "Approved", "Deprecated"  
 document_owner: ""  
 document_maintainer: ""  
-last_approval: "YYYYMMDD"  
+last_approval: "20250825"  
 next_review: "YYYYMMDD"  
 ---
 
-# [Document Title]
+# Secret and Key Management
+The contents from this were folded into 07 Cryptography Standards.
 
 ## 1. Purpose & Scope
 
