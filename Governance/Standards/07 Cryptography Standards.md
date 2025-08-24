@@ -49,9 +49,21 @@ Applies to all FinApp systems, services, contributors, and environments where se
 - Personal keys must be rotated annually or upon role change, with attestation logged in contributor onboarding records.
 
 ### 3.3 Data Protection 
-- Sensitive data must be encrypted at rest and in transit using approved algorithms.
-- TLS 1.2 or higher must be used for all network communications.
-- Encryption keys must not be hardcoded or stored in plaintext.
+
+#### 3.3.1 Data at Rest
+- All sensitive data must be encrypted at rest using algorithms approved as per NIST SP 800-(e.g., AES-256).
+- Encryption keys must be managed securely, with access restricted to authorized personnel only.
+- Regularly rotate encryption keys and audit key usage.
+
+#### 3.3.2 Data in Transit
+- All data transmitted over public or untrusted networks must use TLS 1.2 or higher.
+- Disable insecure protocols (e.g., SSL, TLS 1.0/1.1).
+- Validate certificates and reject expired or self-signed certificates in production systems.
+
+#### 3.3.3 Data in Use
+- All data viewed or processed will be subject to role-specific access.
+- Data for viewing or processing will be removed when no longer needed or after a 10 minute inactivity period.
+- Changes to data shall be logged
 
 ### 3.4 Authentication & Integrity 
 - Use digital signatures or MACs to verify authenticity and integrity of critical data.
