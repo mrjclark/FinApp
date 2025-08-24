@@ -64,6 +64,38 @@ These standards apply to all systems, applications, and personnel handling or ac
 - Implement policy enforcement points (PEPs) that evaluate identity, device posture, and behavior.
 - Require continuous authentication and authorization for sensitive resources.
 
+### 3.7 User Password Policy
+- Minimum password length: 12 characters.
+- Require a mix of uppercase, lowercase, numeric, and special characters.
+- Prohibit reuse of the last 5 passwords.
+- Passwords must be stored using strong, salted hashing algorithms (e.g., bcrypt, Argon2).
+- Password changes required at least every 180 days, or immediately after suspected compromise (ISO/IEC 27001:2022, NIST SP 800-53 IA-5).
+
+### 3.8 Privileged User Password Policy
+- Privileged accounts are defined as those which have direct access to change source code in the project.
+- Minimum password length: 24 characters.
+- Require a mix of uppercase, lowercase, numeric, and special characters.
+- Prohibit reuse of the last 10 passwords.
+- Passwords must be stored using strong, salted hashing algorithms (e.g., bcrypt, Argon2).
+- Privileged account passwords must be changed at least every 90 days (ISO/IEC 27001:2022, NIST SP 800-53 IA-5).
+
+### 3.9 System Account Password Policy
+- System accounts are used for system to system communication only.
+- System accounts shall not be used to interactively access project resources through human operation.
+- Minimum password length: 24 characters.
+- Require a mix of uppercase, lowercase, numeric, and special characters.
+- Prohibit reuse of the last 10 passwords.
+- Passwords must be stored using strong, salted hashing algorithms (e.g., bcrypt, Argon2).
+- System account credentials must be rotated at least every 180 days (ISO/IEC 27001:2022, NIST SP 800-53 IA-5).
+
+### 3.10 Session Management
+- Invalidate sessions after password changes or account lockout.
+- Sessions must timeout after 15 minutes of inactivity (ISO/IEC 27001:2022, NIST SP 800-53 AC-12).
+
+### 3.11 Account Lockout
+- Lock accounts after 10 failed login attempts within 10 minutes.
+- Locked accounts can be unlocked only by an administrator or through secure self-service.
+- Log all lockout events and review for signs of brute force attacks (ISO/IEC 27001:2022, NIST SP 800-53 AC-7).
 
 ## 4. Implementation Guidance
 TBD - procedures to be added
