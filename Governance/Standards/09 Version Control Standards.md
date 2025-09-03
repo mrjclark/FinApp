@@ -1,55 +1,64 @@
 ---
-standard_ID: "S00"
-title: "00 Standards Template.md"
-status: Draft       # Options: "Draft", "Approved", "Deprecated"  
-document_owner: ""  
-document_maintainer: ""  
-last_approval: "YYYYMMDD"  
-next_review: "YYYYMMDD"  
+standard_ID: "S09"
+title: "Version Control Standards"
+status: Draft
+document_owner: "mrjclark"
+document_maintainer: "mrjclark"
+next_review: "20260902"
 ---
 
-# [Document Title]
+# Version Control Standards
 
 ## 1. Purpose & Scope
 
 ### 1.1 Purpose
-[Explain what the standard covers, why it exists, and any underlying philosophical intent.]
+This standard defines the minimum requirements for secure, auditable, and contributor-friendly version control practices within FinApp. It supports traceability, integrity, and stewardship across the software development lifecycle, aligning with NIST and OWASP guidance.
 
 ### 1.2 Scope
-[Define who and what the standard applies to—systems, personnel, environments.]
+Applies to all FinApp source code, configuration files, and infrastructure-as-code artifacts managed in version control systems (e.g., Git). All contributors, maintainers, and automation systems interacting with repositories are subject to this standard.
 
-## 2. Roles & Responsibilities
-List key roles and what they’re expected to do.
+### 2. Roles & Responsibilities
+
 | Role | Responsibilities |
 |------|------------------|
 | Owner | Establishes and enforces the standard. Reviews and approves exceptions. |
 | Contributors | Implements tasks aligned to the standard. Escalates deviations. |
+| Maintainers | Enforces branch protections, reviews pull requests, and ensures audit traceability. |
 
 ## 3. Standard Requirements
-[Numbered or bulleted control statements specific to the topic. Use citations and structure with subsections.]
 
-### 3.1 [Subsection Title]
-- Requirement statement 1  
-- Requirement statement 2  
-*Cite: NIST SP 800-53 [Control ID]*
+### 3.1 Repository Management
+- All source code must reside in a version-controlled repository.
+- Repositories must enforce branch protections and require pull request reviews.
+- Production branches must be tagged and documented upon merge.
 
-### 3.2 [Subsection Title]
-- Additional requirements...
+### 3.2 Commit Hygiene
+- Commits must be signed and traceable to individual contributors.
+- Commit messages must include purpose and relevant control IDs.
+- No direct commits to protected branches.
+
+### 3.3 Audit & Traceability
+- Version control logs must be retained for at least 12 months.
+- All merges to production must be tagged and linked to change records.
+- Contributors may be asked to attest via signed commits or onboarding checklists.
 
 ## 4. Implementation Guidance
-[Optional section for best practices, tooling suggestions, or links to procedures.]
+- Use GitHub/GitLab branch protection rules and CODEOWNERS files.
+- Integrate SAST tools (e.g., Semgrep, CodeQL) into CI pipelines.
+- Use GPG or SSH keys for commit signing.
+- Maintain an onboarding checklist with control IDs.
 
 ## 5. Exceptions
 - Exceptions must be documented, risk-assessed, and approved.
-- Reviewed at least annually.  
+- Reviewed at least annually.
 
 ## 6. Review & Maintenance
 * Reviewed annually or upon significant changes.
 
 ## 7. References
-- NIST [Relevant Publications]  
-- OWASP / CIS / Additional frameworks  
-- Internal policy or repo links (if applicable)
+- NIST SP 800-218: Secure Software Development Framework (SSDF)
+- OWASP Software Supply Chain Security Cheat Sheet
+- FinApp Contributor Onboarding Rituals
 
 ## 8. Audit & Traceability
 - Compliance is verified through periodic reviews of implementation artifacts.
@@ -57,12 +66,14 @@ List key roles and what they’re expected to do.
 
 ---
 
-## Appendix
+Appendix
 
-### A. Definitions
+A. Definitions
+
 | Term | Definition |
 |------|------------|
-| {{Term}} | {{Definition}} |
+| Signed Commit | A Git commit cryptographically verified to originate from a trusted contributor. |
+| Protected Branch | A repository branch with enforced rules (e.g., review required, no direct commits). |
 
-### B. Version History
+B. Version History
 Version history tracked via Git commit log.
