@@ -1,68 +1,81 @@
 ---
-standard_ID: "S00"
-title: "00 Standards Template.md"
-status: Draft       # Options: "Draft", "Approved", "Deprecated"  
-document_owner: ""  
-document_maintainer: ""  
-last_approval: "YYYYMMDD"  
-next_review: "YYYYMMDD"  
+standard_ID: "S13"
+title: "Training Standards"
+status: "Draft"
+document_owner: ""
+document_maintainer: ""
+last_approval: "YYYYMMDD"
+next_review: "YYYYMMDD"
 ---
 
-# [Document Title]
+# Training Standards
 
 ## 1. Purpose & Scope
 
 ### 1.1 Purpose
-[Explain what the standard covers, why it exists, and any underlying philosophical intent.]
+This standard defines the minimum training requirements for all FinApp contributors, ensuring alignment with secure development practices, regulatory expectations, and stewardship principles. It reflects guidance from NIST, OWASP, and internal governance to foster a culture of awareness, resilience, and traceable compliance.
 
 ### 1.2 Scope
-[Define who and what the standard applies to—systems, personnel, environments.]
+Applies to all FinApp systems, environments, and personnel—including developers, analysts, product managers, and executive stewards. Training modules are tailored by role and mapped to control IDs for audit traceability.
 
 ## 2. Roles & Responsibilities
-List key roles and what they’re expected to do.
-| Role | Responsibilities |
-|------|------------------|
-| Owner | Establishes and enforces the standard. Reviews and approves exceptions. |
-| Contributors | Implements tasks aligned to the standard. Escalates deviations. |
+
+| Role              | Responsibilities                                                                 |
+|-------------------|----------------------------------------------------------------------------------|
+| Owner             | Defines training scope, approves exceptions, and ensures alignment with standards |
+| Contributors      | Completes assigned training, escalates gaps, and attests to adherence             |
+| Maintainers       | Updates training modules, tracks completion, and integrates feedback              |
+| Auditors          | Reviews training logs and validates control alignment                             |
 
 ## 3. Standard Requirements
-[Numbered or bulleted control statements specific to the topic. Use citations and structure with subsections.]
 
 ### 3.1 Security Awareness and Training
-- Provide regular security awareness training to all personnel.
-- Ensure training covers secure development practices, data protection, and incident reporting.
-- Document attendance and completion of training (ISO/IEC 27001:2022, 27701, NIST SP 800-53 AT-2).
+- All personnel must complete security awareness training annually.
+- Training must include secure development practices, data protection, incident reporting, and phishing resistance.
+- Completion must be documented and traceable.
 
-### 3.2 [Subsection Title]
-- Additional requirements...
+### 3.2 Role-Based Training Modules
+- Developers: OWASP Proactive Controls, ASVS Level 1–2, secure SDLC practices.
+- Analysts: Threat modeling, incident response protocols (NIST CSF Respond/Detect).
+- Product Managers: Privacy-by-design, risk awareness, contributor onboarding.
+- Executives: Governance, regulatory alignment (SOX, GDPR), symbolic stewardship modeling.
+
+### 3.3 Contributor Attestation
+- Contributors must attest to training completion via signed commits.
+- Attestations are stored in audit logs and reviewed quarterly.
+
+### 3.4 Continuous Improvement
+- Training content is reviewed annually or upon major control updates.
+- Feedback loops are embedded to refine modules and reinforce emotional stewardship.
 
 ## 4. Implementation Guidance
-[Optional section for best practices, tooling suggestions, or links to procedures.]
 
 ## 5. Exceptions
-- Exceptions must be documented, risk-assessed, and approved.
-- Reviewed at least annually.  
+- Exceptions must be documented, risk-assessed, and approved by the standard owner.
+- Reviewed annually and tied to compensating controls.
 
 ## 6. Review & Maintenance
-* Reviewed annually or upon significant changes.
+- Reviewed annually or upon significant regulatory or operational changes.
+- Maintainers update modules and symbolic tags as needed.
 
 ## 7. References
-- NIST [Relevant Publications]  
-- OWASP / CIS / Additional frameworks  
-- Internal policy or repo links (if applicable)
+- NIST SP 800-50, SP 800-16, SP 800-181, SP 800-53 AT-2
+- OWASP ASVS, Proactive Controls, Secure Coding Practices Guide
+- ISO/IEC 27001:2022, 27701
 
 ## 8. Audit & Traceability
-- Compliance is verified through periodic reviews of implementation artifacts.
-- Contributors may be asked to attest to adherence via signed commits or onboarding checklists.
+- Compliance verified through periodic review of training logs, contributor attestations, and onboarding artifacts.
 
 ---
 
 ## Appendix
 
 ### A. Definitions
-| Term | Definition |
-|------|------------|
-| {{Term}} | {{Definition}} |
+
+| Term              | Definition                                                                 |
+|-------------------|----------------------------------------------------------------------------|
+| ASVS              | Application Security Verification Standard (OWASP)                         |
+| AT-2              | NIST control for security awareness and training                           |
 
 ### B. Version History
 Version history tracked via Git commit log.
