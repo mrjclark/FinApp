@@ -1,61 +1,77 @@
 ---
-standard_ID: "S00"
-title: "00 Standards Template.md"
-status: Draft       # Options: "Draft", "Approved", "Deprecated"  
-document_owner: ""  
-document_maintainer: ""  
-last_approval: "YYYYMMDD"  
-next_review: "YYYYMMDD"  
+standard_ID: "CM01"
+title: "Configuration Management Standards"
+status: "Draft"
+document_owner: ""
+document_maintainer: ""
+last_approval: "YYYYMMDD"
+next_review: "YYYYMMDD"
 ---
 
-# [Document Title]
+# Configuration Management Standards
 
 ## 1. Purpose & Scope
 
 ### 1.1 Purpose
-[Explain what the standard covers, why it exists, and any underlying philosophical intent.]
+This standard defines the minimum configuration management requirements for FinApp systems, environments, and contributors. It ensures secure, consistent, and auditable configuration practices aligned with NIST, OWASP, and CIS guidance. The intent is to foster operational resilience, reduce risk, and reinforce stewardship across all deployments.
 
 ### 1.2 Scope
-[Define who and what the standard applies to—systems, personnel, environments.]
+Applies to all FinApp systems, environments (development, staging, production), and contributors responsible for infrastructure, application deployment, and configuration changes.
 
 ## 2. Roles & Responsibilities
-List key roles and what they’re expected to do.
+
 | Role | Responsibilities |
 |------|------------------|
 | Owner | Establishes and enforces the standard. Reviews and approves exceptions. |
-| Contributors | Implements tasks aligned to the standard. Escalates deviations. |
+| Contributors | Implements tasks aligned to the standard. Escalates deviations. Documents changes and attests to compliance. |
 
 ## 3. Standard Requirements
-[Numbered or bulleted control statements specific to the topic. Use citations and structure with subsections.]
 
-### Vulnerability Management 
-- Regularly scan systems and applications for vulnerabilities.
-- Prioritize and remediate vulnerabilities based on risk.
-- Track and document remediation efforts.
-- Conduct vulnerability assessments at least quarterly (ISO/IEC 27001:2022, NIST SP 800-53 RA-5).
+### 3.1 Baseline Configuration
+- Define and document secure baseline configurations for all system components.
+- Align baselines with CIS Benchmarks and FinApp symbolic tags.
+- Review and update baselines annually or upon major system changes.
 
-### Denial of Service Protection (move to secure environment, configuration management)
-    sp800-53: [SC-5, CP-2, CP-4]
-    sp800-218: [PO]
-    sp800-160: [availability_resilience, testing]
+### 3.2 Configuration Change Control
+- Configuration changes will follow all standards in S11 Change and Release Managment Standards
+
+### 3.3 Secure Defaults
+- Deploy systems with hardened, secure default settings.
+- Disable unused services and remove default credentials.
+- Validate configuration inputs and enforce least privilege.
+
+### 3.4 Inventory & Drift Detection
+- Maintain an up-to-date inventory of system components and configurations.
+- Implement automated tools to detect unauthorized changes.
+- Alert on configuration drift and document remediation.
+
+### 3.5 Environment Separation
+- Enforce strict separation between development, testing, and production environments.
+- Prevent cross-environment contamination and unauthorized access.
 
 ## 4. Implementation Guidance
-[Optional section for best practices, tooling suggestions, or links to procedures.]
+
+- Reference CIS Benchmarks for baseline templates.
+- Automate configuration checks with tools like Ansible, Terraform, or Chef.
 
 ## 5. Exceptions
-- Exceptions must be documented, risk-assessed, and approved.
-- Reviewed at least annually.  
+
+- Exceptions must be documented, risk-assessed, and approved by the standard owner.
+- Reviewed at least annually or upon system changes.
 
 ## 6. Review & Maintenance
-* Reviewed annually or upon significant changes.
+
+- Reviewed annually or upon significant changes to systems, environments, or regulatory requirements.
 
 ## 7. References
-- NIST [Relevant Publications]  
-- OWASP / CIS / Additional frameworks  
-- Internal policy or repo links (if applicable)
+
+- NIST SP 800-128, SP 800-53 Rev. 5, SP 800-137, SP 800-160
+- OWASP ASVS 4.0, Secure Coding Practices Guide
+- CIS Benchmarks
 
 ## 8. Audit & Traceability
-- Compliance is verified through periodic reviews of implementation artifacts.
+
+- Compliance verified through periodic reviews of configuration artifacts and logs.
 - Contributors may be asked to attest to adherence via signed commits or onboarding checklists.
 
 ---
@@ -63,9 +79,12 @@ List key roles and what they’re expected to do.
 ## Appendix
 
 ### A. Definitions
+
 | Term | Definition |
 |------|------------|
-| {{Term}} | {{Definition}} |
+| Baseline Configuration | A secure, approved starting point for system setup |
+| Configuration Drift | Unauthorized or unintended changes from the baseline |
 
 ### B. Version History
+
 Version history tracked via Git commit log.
