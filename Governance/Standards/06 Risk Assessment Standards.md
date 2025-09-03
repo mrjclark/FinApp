@@ -1,11 +1,11 @@
 ---
 standard_ID: "S06"
 title: "Risk Assessment Standards"
-status: Draft       # Options: "Draft", "Approved", "Deprecated"  
-document_owner: ""  
-document_maintainer: ""  
-last_approval: "YYYYMMDD"  
-next_review: "YYYYMMDD"  
+status: "Approved"       # Options: "Draft", "Approved", "Deprecated"  
+document_owner: "mrjclark"  
+document_maintainer: "mrjclark"  
+last_approval: "20250903"  
+next_review: "20260903"  
 ---
 
 # Risk Assessment Standards
@@ -30,6 +30,7 @@ This will be for all contributors who will be conducting a risk assessment for t
 Each risk assessment will adhere to following minimum requirements for research and documentation when being developed.
 
 ### 3.1 Risk Assessment Life Cycle
+
 #### 3.1.1 Preparation
 - Identify and assign key roles for executing RMF activities.
 - Establish a strategy that defines risk tolerance and governance.

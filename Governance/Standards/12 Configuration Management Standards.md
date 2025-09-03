@@ -1,11 +1,11 @@
 ---
 standard_ID: "CM01"
 title: "Configuration Management Standards"
-status: "Draft"
-document_owner: ""
-document_maintainer: ""
-last_approval: "YYYYMMDD"
-next_review: "YYYYMMDD"
+status: "Approved"
+document_owner: "mrjclark"
+document_maintainer: "mrjclark"
+last_approval: "20250903"
+next_review: "20260903"
 ---
 
 # Configuration Management Standards

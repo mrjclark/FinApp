@@ -4,6 +4,7 @@ title: "Version Control Standards"
 status: Draft
 document_owner: "mrjclark"
 document_maintainer: "mrjclark"
+last_approval: "20250903"
 next_review: "20260902"
 ---
 
@@ -58,7 +59,6 @@ Applies to all FinApp source code, configuration files, and infrastructure-as-co
 ## 7. References
 - NIST SP 800-218: Secure Software Development Framework (SSDF)
 - OWASP Software Supply Chain Security Cheat Sheet
-- FinApp Contributor Onboarding Rituals
 
 ## 8. Audit & Traceability
 - Compliance is verified through periodic reviews of implementation artifacts.

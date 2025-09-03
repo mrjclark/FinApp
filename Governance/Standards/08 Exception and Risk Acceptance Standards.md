@@ -1,11 +1,11 @@
 ---
 standard_ID: "S08"
 title: "Exception Handling for Internal Controls over Secure Development"
-status: "Draft"
-document_owner: ""
-document_maintainer: ""
-last_approval: "YYYYMMDD"
-next_review: "YYYYMMDD"
+status: "Approved"
+document_owner: "mrjclark"
+document_maintainer: "mrjclark"
+last_approval: "20250903"
+next_review: "20260903"
 ---
 
 # Exception Handling for Internal Controls over Secure Development
@@ -45,11 +45,9 @@ Applies to all contributors, auditors, and project leads involved in secure deve
 - Auditors must maintain a log of all noted exceptions, including contributor name, control ID, risk rating, and approval status.
 - Auditor logs are subject to quarterly review and must be traceable to signed commits or contributor attestations.
 
-*Cite: PCAOB AS5 (AS 2201) – Top-down, risk-based approach to internal control evaluation*
-
 ## 4. Implementation Guidance
 
-- Use symbolic control IDs to tag exceptions (e.g., `ICSD-C03: Static Analysis Skipped`)
+- Use control IDs to tag exceptions 
 - Embed exception rituals into contributor onboarding and retrospectives
 - Link exception logs to Git commit hashes and contributor checklists
 

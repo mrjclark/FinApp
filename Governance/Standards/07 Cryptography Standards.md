@@ -1,11 +1,11 @@
 ---
 standard_ID: "S07"
 title: "Cryptography Standards"
-status: Draft
-document_owner: ""
-document_maintainer: ""
-last_approval: "YYYYMMDD"
-next_review: "YYYYMMDD"
+status: "Approved"
+document_owner: "mrjclark"
+document_maintainer: "mrjclark"
+last_approval: "20250903"
+next_review: "20260903"
 ---
 
 # Cryptography Standards
@@ -51,7 +51,7 @@ Applies to all FinApp systems, services, contributors, and environments where se
 ### 3.3 Data Protection 
 
 #### 3.3.1 Data at Rest
-- All sensitive data must be encrypted at rest using algorithms approved as per NIST SP 800-(e.g., AES-256).
+- All sensitive data at rest must be encrypted
 - Encryption keys must be managed securely, with access restricted to authorized personnel only.
 - Regularly rotate encryption keys and audit key usage.
 
@@ -97,7 +97,7 @@ Applies to all FinApp systems, services, contributors, and environments where se
 
 #### 3.8.3 Implementation Traceability
 - Each cryptographic control must be traceable to a control ID, mechanism type, and contributor attestation.
-- Symbolic tags (e.g., AES256-GCM, RSA-SIG) must be used in documentation and commit messages to reinforce clarity and auditability.
+- Tags (e.g., AES256-GCM, RSA-SIG) must be used in documentation and commit messages to reinforce clarity and auditability.
 
 ### 3.9 Contributor Key Stewardship
 

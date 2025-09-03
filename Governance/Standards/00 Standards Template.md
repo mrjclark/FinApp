@@ -1,7 +1,7 @@
 ---
 standard_ID: "S00"
 title: "00 Standards Template.md"
-status: Draft       # Options: "Draft", "Approved", "Deprecated"  
+status: "Draft"       # Options: "Draft", "Approved", "Deprecated"  
 document_owner: ""  
 document_maintainer: ""  
 last_approval: "YYYYMMDD"  

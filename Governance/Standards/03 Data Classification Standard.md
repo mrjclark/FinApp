@@ -1,11 +1,11 @@
 ---
 standard_ID: "S03"
 title: "Data Classification Standard"
-status: "Draft"
-document_owner: ""
-document_maintainer: ""
-last_approval: "YYYYMMDD"
-next_review: "YYYYMMDD"
+status: "Approved"
+document_owner: "mrjclark"
+document_maintainer: "mrjclark"
+last_approval: "20250903"
+next_review: "20260903"
 ---
 
 # Data Classification Standard

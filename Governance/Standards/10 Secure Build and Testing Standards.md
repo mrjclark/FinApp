@@ -1,11 +1,11 @@
 ---
 standard_ID: "S10"  
 title: "Secure Build and Testing Standards"
-status: "Draft"
-document_owner: ""
-document_maintainer: ""  
-last_approval: "YYYYMMDD"  
-next_review: "YYYYMMDD"  
+status: "Approved"
+document_owner: "mrjclark"
+document_maintainer: "mrjclark"  
+last_approval: "20250903"  
+next_review: "20260903"  
 
 ---
 
@@ -29,12 +29,12 @@ Applies to all FinApp development environments, CI/CD pipelines, contributors, a
 ## 3. Standard Requirements
 
 ### 3.1 Secure Build Practices  
-- Integrate security controls into CI/CD pipelines (SSDF Practice PO.3).  
+- Integrate security controls into CI/CD pipelines.  
 - Use reproducible builds and verify integrity via hash validation.  
 
 ### 3.2 Secure Testing Protocols  
 - Conduct static and dynamic analysis during build stages.  
-- Validate against OWASP Top 10 risks (e.g., A01:2021 Broken Access Control).  
+- Validate against OWASP Top 10 risks.  
 
 ### 3.3 Vulnerability Management  
 - Triage and remediate findings based on CVSS scores.  

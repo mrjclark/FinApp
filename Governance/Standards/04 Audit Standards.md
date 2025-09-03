@@ -1,11 +1,11 @@
 ---
 standard_ID: "S04"
 title: "Audit Standards"
-status: Draft       # Options: "Draft", "Approved", "Deprecated"  
-document_owner: ""  
-document_maintainer: ""  
-last_approval: "YYYYMMDD"  
-next_review: "YYYYMMDD"  
+status: "Approved"       # Options: "Draft", "Approved", "Deprecated"  
+document_owner: "mrjclark"  
+document_maintainer: "mrjclark"  
+last_approval: "20250903"  
+next_review: "20260903"  
 ---
 
 # Audit Standards
@@ -72,7 +72,6 @@ List key roles and what they’re expected to do.
 - In the event that storage space must be made, audit logs must be archived and moved to a new location. In the development environment, an incident must be logged as per SXX Incident Handling Standards.md. In the user environment, the user must be given the choice to archive and move, or archive and delete the audit log
 
 ## 4. Implementation Guidance
-[Optional section for best practices, tooling suggestions, or links to procedures.]
 
 ## 5. Exceptions
 - Exceptions must be documented, risk-assessed, and approved.

@@ -1,11 +1,11 @@
 ---
 standard_ID: "S14"
-title: "Documentation Standards for FinApp"
-status: "Draft"
-document_owner: ""
-document_maintainer: ""
-last_approval: "YYYYMMDD"
-next_review: "YYYYMMDD"
+title: "Documentation Standards"
+status: "Approved"
+document_owner: "mrjclark"
+document_maintainer: "mrjclark"
+last_approval: "20250903"
+next_review: "20260903"
 ---
 
 # Documentation Standards 
