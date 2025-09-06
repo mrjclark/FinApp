@@ -22,7 +22,7 @@ This charter, endorsed by project leadership, is grounded in the principles of s
 FinApp is committed to using secure development practices to ensure data confidentiality and integrity using industry standards. The development will be transparent and process driven to ensure trustworthiness and accountbility.
 
 ## 3. Secure Software Development Life Cycle
-- The development of FinApp will occur using the below processes. 
+- The development of FinApp will occur using a set process. 
 - Processes are designed to be overlapping and can contain parallel tasks and activities. 
 - Tasks and activities can transfer from one process to the next if it fulfills the requirements of that process. Tasks and activities from one process can also transfer to any of the previous process when new or existing requirements were found to be missing.
 - Requirements will be determined by the task or activity responsible upon creation or transfer to another process.
@@ -38,78 +38,6 @@ FinApp is committed to using secure development practices to ensure data confide
 | Deployments & Operations | Maintain security posture in post release |
 | Maintenance & Disposals | Sustain trustworthiness over time |
 
-### 3.2 Concept & Initiation
-- Define stakeholder protection needs and ethical boundaries.
-- Identify mission/business objectives and critical assets.
-- Identify high-level threats, adversaries, and potential impacts.
-- Establish initial risk tolerance and trustworthiness goals.
-- Document assumptions, constraints, and dependencies relevant to security.
-- Identify potential loss scenarios and unacceptable consequences.
-- Frame the product’s purpose as a service to others, not just a technical artifact.
-
-### 3.3 Requirements Definition
-- Specify security and privacy requirements, both functional and non-functional.
-- Create cyber resiliency objectives for anticipating, withstanding, recovering, and adapting.
-- Align requirements with mission assurance and ethical commitments.
-- Document all assumptions, constraints, and trade-offs transparently.
-- Identify applicable laws, regulations, and standards.
-- Perform initial risk assessment and tolerance analysis.
-- Establish requirements for monitoring, detection, and response capabilities.
-- Document requirements for supply chain and third-party components.
-
-### 3.4 Architecture & Design
-- Apply secure design principles of least privilege, separation of concerns, defense-in-depth, and redundancy.
-- Identify encryption standards for data at rest, in transit, and in use.
-- Incorporate Secure by Design and Default principles.
-- Perform detailed threat modeling and resilience analysis.
-- Define system boundaries, trust zones, and defensive layering.
-- Architect for modularity to mitigate degradation and support recovery under stress.
-- Define security controls, countermeasures, and trust boundaries.
-- Plan for adaptability, recovery, and continuity.
-- Specify requirements for secure configuration and hardening.
-- Design for secure integration with external systems and services.
-
-### 3.5 Implementation
-- Enforce secure coding standards and review rituals.
-- Validate and manage third-party components and SBOMs.
-- Use version control, code signing, and reproducible build processes.
-- Apply secure coding standards and guidelines.
-- Integrate security controls into code and system components.
-- Document security-relevant implementation decisions.
-- Ensure traceability from requirements to implementation.
-- Treat each commit as a reflection of integrity, discipline, and intentionality.
-
-### 3.6 Integration & Verification
-- Conduct code and environment vulnerability assessments.
-- Verify fulfillment of security and cyber resilience requirements.
-- Conduct dynamic and static security testing (e.g., SAST, DAST).
-- Perform penetration testing.
-- Validate that security and resiliency requirements are met.
-- Test system recovery, failover, and continuity mechanisms.
-- Verify secure integration of third-party and supply chain components.
-- Document test results and remediation actions.
-- Maintain and validate assurance cases to demonstrate fulfillment of stakeholder protection needs and trustworthiness goals.
-
-### 3.7 Deployments & Operations
-- Harden configurations and enforce secure defaults prior to deployment.
-- Monitor for security events, anomalies, and indicators of compromise.
-- Protect development and release environments with least privilege and isolation.
-- Manage credentials, secrets, and access controls securely.
-- Apply patches and updates in a timely manner.
-- Maintain operational resilience and incident response plans.
-- Conduct regular security reviews and audits of deployed systems.
-- Treat operations vigilance as a practice of stewardship.
-- Sustain assurance cases and traceability artifacts to support long-term trustworthiness.
-
-### 3.8 Maintenance & Disposals
-- Continuously monitor for new threats and vulnerabilities.
-- Patch and update software and components as needed.
-- Retire or decommission components securely, ensuring data sanitization.
-- Update documentation, threat models, and risk assessments.
-- Review and improve security controls based on lessons learned.
-- Ensure secure transfer or destruction of sensitive data and assets.
-- Maintain documentation and assurance cases.
-- Intentionally reflect on lessons learned and refine processes.
 
 ## 4. Roles & Responsibilities
 | Role                            | Responsibilities                                                                                    |
