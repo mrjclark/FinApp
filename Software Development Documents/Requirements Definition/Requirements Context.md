@@ -39,7 +39,7 @@ This document will cover various requirements.
 - Core features and functions to be delivered in this release. 
 - Supported platforms, environments, and user groups. 
 - Specify security and privacy requirements, both functional and non-functional.
-- Create cyber resiliency objectives for anticipating, withstanding, recovering, and adapting.
+- Create cyber resiliency objectives for anticipating, withstanding, recovering, and adapting to threats.
 - Align requirements with mission assurance and ethical commitments.
 - Document all assumptions, constraints, and trade-offs transparently.
 - Identify applicable laws, regulations, and standards.
@@ -52,7 +52,7 @@ This document will cover various requirements.
 ## 2. Stakeholder Map
 | Stakeholder Map | Stakeholder | Role / Interest | Influence Level | Contact / Representation | 
 |----------|-----------------|-----------------|--------------------------| 
-| Internal Security Team | Define and validate security controls | High | | 
+| Internal Security Team | Define and validate security controls | High | | Create cyber resiliency objectives to anticipate, withstand, recover from, and adapt to threats
 | Compliance Officer | Ensure regulatory alignment | High | | 
 | End Users | Users of FinApp for intended purposes | Medium | | 
 | Third-Party Vendors | Provide integrated services or libraries | Medium | |
@@ -67,11 +67,11 @@ This document will cover various requirements.
 For development and release of FinApp, it is assumed that:
 - GitHub will be the primary code repository, with the main branch matching the latest release version
 - For prototypes 
-    - Languages will identified as any secure and mature language the contributor is proficient in. Prototypes must be able to pass integration tests, unit tests, code quality checks, secret scanning tests, 
-    - Databases will identified as compatible with the prototyping language will be used. Databases must be able to pass integration tests, and must be able to be secured to follow the current integration testing complexity. 
+    - Languages will be identified as any secure and mature language the contributor is proficient in. Prototypes must be able to pass integration tests, unit tests, code quality checks, secret scanning tests, 
+    - Databases will be identified as compatible with the prototyping language will be used. Databases must be able to pass integration tests, and must be secured in accordance with current integration testing complexity requirements. 
 - For releases :
     - Languages will include requirements from prototyping languages as well as be restricted to performant, memory safe languages. These will include C#, JavaScript, Go and Rust.
-    - Databases will be mature, open-source, and secure. These will include PostGreSQL.
+    - Databases will be mature, open-source, and secure. These will include PostgreSQL.
 - Contributors must have access to MFA-capable devices. 
 
 ## 5. Constraints 
@@ -93,7 +93,7 @@ For development and release of FinApp, it is assumed that:
 | Privacy | GDPR, CCPA | Advisory | Data handling and consent |  
 
 ## 8. Risk Tolerance & Initial Assessment 
-See [Initial Organization Risk Assessment](../Concepts\ and\ Assessment/Initiation\ Orginizational\ Risk\ Assessment.md)
+See [Initial Organization Risk Assessment](../Concepts\ and\ Assessment/Initiation\ Organizational\ Risk\ Assessment.md)
 Risk Appetite Statement: Based on the initial risk assessment, the project will not accept risk that increases the time to recover by more than 12 hours. This will ensure that contributors are unencumbered by low criticality remediation, but users will be protected from vulnerabilities that directly conflict with project goals. 
 
 ## 9. Monitoring, Detection, and Response Requirements 
@@ -103,7 +103,7 @@ Risk Appetite Statement: Based on the initial risk assessment, the project will 
 
 ## 10. Supply Chain & Third-Party Requirements 
 - All third-party artifacts must have a risk assessment done. Criteria for passing will be based on artifact maturity, community support, and vulnerabilities' time to remediate within the past year. An artifact will not be used if it fails two of the following portions of the assessment:
-    - The artifact was release less than 6 months prior to the assessment
+    - The artifact was released less than 6 months prior to the assessment
     - There is no official community support
     - Vulnerabilities take longer than 1 month to patch
 - A complete and up-to-date list of all artifacts must be kept visible on the top-level ReadMe.md at all times
@@ -112,7 +112,7 @@ Risk Appetite Statement: Based on the initial risk assessment, the project will 
 ## 11. Traceability & Version Control 
 - All requirements will be tagged with unique IDs. Naming convention format is covered in [Naming Conventions](../../Governance/Procedures/Naming\ Conventions.md) 
 - Changes logged in Git messages must contain the following:
-    - A concise subject line with written in an imperative mood
+    - A concise subject line with written in the imperative mood
     - A body that explains why the change was done, what problem or issue it solved, how it was done, and the issue number it addresses, if applicable. 
-    - Git messages should be consistently worded and formatted according to each contributors preferred style and lexicon.
+    - Git messages should be consistently worded and formatted according to each contributor's preferred style and lexicon.
 
