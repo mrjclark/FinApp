@@ -24,6 +24,7 @@ List key roles and what they’re expected to do.
 |------|------------------|
 | Owner | Establishes and enforces the procedure. Reviews and approves exceptions. |
 | Contributors | Implements tasks aligned to the procedure. Escalates deviations. |
+| [Other Roles] | [List other roles that may be relevant and their tasks that are inherent as part of this document.] |
 
 ## 3. Procedure Requirements
 [Numbered or bulleted control statements specific to the topic. Use citations and structure with subsections.]
